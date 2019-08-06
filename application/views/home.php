@@ -26,14 +26,18 @@
                 <div class="col-lg-8">
                     <div class="about_us_text text-center">
                         <h5>About our Web</h5>
-                        <h2>Struktur Perkebunan Kelapa Sawit Provinsi Riau</h2>
-                        <p>It’s the end of summer the sweltering heat makes human
-                            sweat in the night and makes the plants and trees wilt
-                            even in the moonlit nights. The eastern wind breeze brings
-                            an eerie feeling, that the monsoon clouds are soon coming,
-                            there is a strange silence in the ears, the sky gets darker
-                            and darker, the flash of lightning illuminates the dark skies,
-                            the sound of thunder fills the heart with fear.</p>
+                        <h2>Perkembangan Perkebunan Kelapa Sawit di Riau</h2>
+                        <p>Perkembangan perkebunan kelapa sawit di Provinsi Riau memberikan peran penting
+dalam kesejahteraan masyarakatnya dan kemajuan daerah, dilihat dari profibilitas kelapa sawit
+yang tinggi. Adanya peningkatan luas lahan dari tahun ke tahun yang artinya mulai banyak
+pihak yang berinvestasi pada perkebunan kelapa sawit, baik dari perkebunan swasta ataupun
+perkebunan rakyat yang keduanya sama-sama memiliki peran penting disektor pertanian
+Provinsi Riau. Dapat dilihat dari kontribusi pertaniannya terhadap Produk Domestik Regional
+Bruto (PDRB) yang cukup besar, di tahun 1990 sebesar 25,47%, tahun 2000 sebesar 43,48%,
+dan tahun 2009 sebesar 33,86%. Sedangkan kontribusi pertanian terhadap lapangan kerja juga
+masih cukup besar yaitu, pada tahun 1990 mencapai angka 58,13% dan pada tahun 2010
+mencapai angka 43,89%. Pada tabel 1.3 berikut dapat dlihat perkembangan luas perkebunan
+kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                         <a href="<?php echo base_url();?>assets/#" class="btn_2">read more</a>
                     </div>
                 </div>
