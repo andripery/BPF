@@ -49,17 +49,11 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('welcome/about');?>">about</a>
                                 </li>
-
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="<?php echo site_url('welcome/blog');?>" id="navbarDropdown"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Blog
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="<?php echo site_url('welcome/blog');?>"> blog</a>
-                                        <a class="dropdown-item" href="<?php echo base_url();?>assets/single-blog.html">Single blog</a>
-                                    </div>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="<?php echo site_url('welcome/blog');?>">blog</a>
                                 </li>
+
+                                
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('welcome/contact');?>">contact</a>
                                 </li>
