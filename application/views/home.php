@@ -229,49 +229,4 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
     </section>
     <!--::review_part part end::-->
 
-    <!--::blog part start::-->
-    <section class="catagory_post padding_bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-4">
-                    <div class="section_tittle">
-                        <p>Blog Kami</p>
-                        <h2>Postingan akhir-akhir ini</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="single_catagory_post post_2">
-                        <div class="category_post_img">
-                            <img src="<?php echo base_url();?>assets/img/blog/blog_1.png" alt="">
-                        </div>
-                        <div class="post_text_1 pr_30">
-                            <h5><span> By Jefran</span> / Maret 30 , 2019</h5>
-                            <a href="<?php echo base_url();?>assets/blog.html">
-                                <h3>Manfaat Praktis Kelapa Sawit</h3>
-                            </a>
-                            <p>Manfaat praktis merupakan manfaat yang dapat diperoleh dari kelapa sawit yang sudah diolah bagi kehidupan manusia dan juga sekitarnya. berikut ini adalah manfaat praktis dari kelapa sawit. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="single_catagory_post post_2">
-                        <div class="category_post_img">
-                            <img src="<?php echo base_url();?>assets/img/blog/blog_2.png" alt="">
-                        </div>
-                        <div class="post_text_1 pr_30">
-                            <h5><span> By Peri</span> / April 3 , 2019</h5>
-                            <a href="<?php echo base_url();?>assets/blog.html">
-                                <h3>Tips Memiliki Pengelolaan Keuangan Bisnis yang Lebih Baik</h3>
-                            </a>
-                            <p>Agar proses pemeriksaan keuangan menjadi mudah dan Anda juga lebih memahami sistem keuangan yang dikelola, berikut adalah beberapa tips untuk memiliki pengelolaan keuangan bisnis yang lebih baik. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--::blog part end::-->
-
 <?php $this->load->view('layout/footer');?>
