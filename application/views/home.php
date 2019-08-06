@@ -61,7 +61,7 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                 <div class="col-lg-8 offset-lg-2">
                     <div class="portfolio-filter filters">
                         <ul>
-                            <li class="active" data-filter="all">All photos</li>
+                            <li class="active" data-filter="all">Semua Foto</li>
                             <li data-filter="1"> weeding</li>
                             <li data-filter="2">fashion</li>
                             <li data-filter="3">portrait</li>
@@ -85,7 +85,7 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                             </div>
                         </a>
                         <a href="<?php echo base_url();?>assets/portfolio_details.html" class="img-gal width-1 filtr-item" data-category="2"
-                            style="background-image: url('<?php echo base_url();?>assets/img/gallery/gallery_item_2.png')">
+                            style="background-image: url('<?php echo base_url();?>assets/img/gallery/kelolasawit1.jpg')">
                             <div class="single_gallery_item">
                                 <div class="single_gallery_item_iner">
                                     <div class="gallery_item_text">
