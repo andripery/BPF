@@ -60,12 +60,6 @@
                                         <a class="dropdown-item" href="<?php echo base_url();?>assets/single-blog.html">Single blog</a>
                                     </div>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>assets/blog.html" id="navbarDropdown1"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        pages
-                                    </a>
-                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('welcome/contact');?>">contact</a>
                                 </li>
