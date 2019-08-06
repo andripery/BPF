@@ -1,6 +1,10 @@
 <?php $this->load->view('layout/header');?>
 
+<<<<<<< HEAD
 <!-- breadcrumb start-->
+=======
+    <!-- breadcrumb start-->
+>>>>>>> f23153f35fdc2b43c06604cc794abaeb65a60760
     <section class="breadcrumb breadcrumb_bg">
         <div class="container">
             <div class="row">
@@ -32,7 +36,11 @@
                             there is a strange silence in the ears, the sky gets darker
                             and darker, the flash of lightning illuminates the dark skies,
                             the sound of thunder fills the heart with fear.</p>
+<<<<<<< HEAD
                         <a href="<?php echo base_url();?>assets/#" class="btn_2">read more</a>
+=======
+                        <a href="#" class="btn_2">read more</a>
+>>>>>>> f23153f35fdc2b43c06604cc794abaeb65a60760
                     </div>
                 </div>
             </div>
@@ -49,7 +57,11 @@
                         <h2>Our project video</h2>
                         <div class="intro_video_icon">
                             <a id="play-video_1" class="video-play-button popup-youtube"
+<<<<<<< HEAD
                                 href="<?php echo base_url();?>assets/https://www.youtube.com/watch?v=pBFQdxA-apI">
+=======
+                                href="https://www.youtube.com/watch?v=pBFQdxA-apI">
+>>>>>>> f23153f35fdc2b43c06604cc794abaeb65a60760
                                 <span class="ti-control-play"></span>
                             </a>
                         </div>
@@ -66,7 +78,11 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-6 col-lg-6">
                     <div class="review_img">
+<<<<<<< HEAD
                         <img src="<?php echo base_url();?>assets/img/review_bg.png" alt="">
+=======
+                        <img src="img/review_bg.png" alt="">
+>>>>>>> f23153f35fdc2b43c06604cc794abaeb65a60760
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-5">
@@ -108,5 +124,8 @@
         </div>
     </section>
     <!--::review_part part end::-->
+<<<<<<< HEAD
 
+=======
+>>>>>>> f23153f35fdc2b43c06604cc794abaeb65a60760
 <?php $this->load->view('layout/footer');?>

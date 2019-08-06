@@ -85,7 +85,7 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                             </div>
                         </a>
                         <a href="<?php echo base_url();?>assets/portfolio_details.html" class="img-gal width-1 filtr-item" data-category="1"
-                            style="background-image: url('<?php echo base_url();?>assets/img/gallery/gallery_item_2.jpg')">
+                            style="background-image: url('<?php echo base_url();?>assets/img/gallery/gallery_item_2.png')">
                             <div class="single_gallery_item">
                                 <div class="single_gallery_item_iner">
                                     <div class="gallery_item_text">
