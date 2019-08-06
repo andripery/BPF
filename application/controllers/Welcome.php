@@ -42,4 +42,19 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('login');
 	}
+
+	public function cek_login()
+	{
+		$username = $this->input->post("username");
+		$password = $this->input->post("password");
+		$cek_login = $this->User_model->login($username,md5($password));
+
+		if(empty($cek_login)) redirect("/");
+		else redirect(site_url('welcome/admin'));
+	}
+
+	public function admin($value='')
+	{
+		$this->load->view('admin');
+	}
 }

@@ -47,7 +47,7 @@
                                     <a class="nav-link" href="<?php echo base_url();?>">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo base_url();?>assets/about.html">about</a>
+                                    <a class="nav-link" href="<?php echo site_url('welcome/about');?>">about</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo base_url();?>assets/services.html">services</a>
@@ -83,7 +83,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo base_url();?>assets/contact.html">contact</a>
+                                    <a class="nav-link" href="<?php echo site_url('welcome/contact');?>">contact</a>
                                 </li>
                             </ul>
                         </div>
