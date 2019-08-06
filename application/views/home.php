@@ -152,8 +152,8 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
             <div class="row">
                 <div class="col-lg-6">
                     <div class="section_tittle">
-                        <p>our service</p>
-                        <h2>what we offer</h2>
+                        <p>Pelayanan kami</p>
+                        <h2>Apa yang kami tawarkan ?</h2>
                     </div>
                 </div>
             </div>
@@ -161,13 +161,12 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                 <div class="col-lg-4 col-md-6">
                     <div class="single_offer_text text-center wedding">
                         <span class="flaticon-love-and-romance"></span>
-                        <h4>wedding photography</h4>
-                        <p>World the end of summer the sweltering heat makes human
-                            sweat in the night and man plants and trees wilt even</p>
+                        <h4>Edukasi pengelolaan keuangan</h4>
+                        <p>Mengelola uang tidak bisa dilakukan dengan sembarangan, ada beberapa tahapan yang perlu diikuti agar tujuan-tujuan di atas dapat tercapai</p>
                         <a href="<?php echo base_url();?>assets/#" class="btn_1">read more</a>
                     </div>
                     <div class="single_offer_img d-none d-md-block">
-                        <img src="<?php echo base_url();?>assets/img/single_offer_img_2.png" alt="">
+                        <img src="<?php echo base_url();?>assets/img/kelolauang1.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-6">
