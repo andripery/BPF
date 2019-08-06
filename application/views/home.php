@@ -175,11 +175,8 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                     </div>
                     <div class="single_offer_text text-center nature">
                         <span class="flaticon-leaf"></span>
-                        <h4>Nature photography</h4>
-                        <p>that the monsoon clouds are soon coming, there is a
-                            strange silence in the ears, the sky gets darker and
-                            darker, the flash of lightning illuminates the dark
-                            skies all time needs band the sound of thunder fills the heart with fear.</p>
+                        <h4>Berbagai macam pemanfaatan sawit</h4>
+                        <p>Sebagai salah satu jenis perkebunan yang maju dan banyak dibudidayakan di Indonesia, tentunya kelapa sawit memiliki banyak sekali manfaat. Apa saja manfaat dari kelapa sawit? berikut ini adalah beberapa manfaat kelapa sawit.</p>
                         <a href="<?php echo base_url();?>assets/#" class="btn_1">read more</a>
                     </div>
                 </div>
