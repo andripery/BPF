@@ -197,15 +197,10 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                 <div class="col-md-6">
                     <div class="review_slider owl-carousel">
                         <div class="review_part_text">
-                            <h5>Testimnonials</h5>
-                            <h2>With efficiency to
-                                unlock more opportunities</h2>
-                            <p>Saw shall light. Us their to place had creepeth day
-                                night great wher appear to. Hath, called, sea called,
-                                gathering wherein open make living Female itself
-                                gathering man. Waters and, two. Bearing. Saw she'd
-                                all let she'd lights abundantly blessed.</p>
-                            <h3>Mitchel Jeferson, <span>CEO of softking</span> </h3>
+                            <h5>Testimoni</h5>
+                            <h2>Setelah membaca web ini, hal yang didapatkan</h2>
+                            <p>Keuangan lebih jelas, dan hemat dalam pemakaian uang, tidak boros dan bisa menabung untuk masa depan.</p>
+                            <h3>Raihan Hidayat <span>Petani Sawit</span> </h3>
                         </div>
                         <div class="review_part_text">
                             <h2>With efficiency to
@@ -235,92 +230,14 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
     </section>
     <!--::review_part part end::-->
 
-    <!--::pricing part start::-->
-    <section class="pricing_part section_padding home_page_pricing">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="section_tittle">
-                        <p>Price table</p>
-                        <h2>pricing plan</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single_pricing_part">
-                        <div class="pricing_tittle">
-                            <img src="<?php echo base_url();?>assets/img/icon/feature_icon_1.svg" alt="">
-                            <p>Standard</p>
-                        </div>
-                        <div class="pricing_content">
-                            <h3>$50.00 <span>/ mo</span></h3>
-                            <ul>
-                                <li>2GB Bandwidth</li>
-                                <li>Two Account</li>
-                                <li>15GB Storage</li>
-                                <li>Sale After Service</li>
-                                <li>3 Host Domain</li>
-                                <li>24/7 Support</li>
-                            </ul>
-                            <a href="<?php echo base_url();?>assets/#" class="btn_2">book Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single_pricing_part">
-                        <div class="pricing_tittle">
-                            <img src="<?php echo base_url();?>assets/img/icon/feature_icon_2.svg" alt="">
-                            <p>Standard</p>
-                        </div>
-                        <div class="pricing_content">
-                            <h3>$50.00 <span>/ mo</span></h3>
-                            <ul>
-                                <li>2GB Bandwidth</li>
-                                <li>Two Account</li>
-                                <li>15GB Storage</li>
-                                <li>Sale After Service</li>
-                                <li>3 Host Domain</li>
-                                <li>24/7 Support</li>
-                            </ul>
-                            <a href="<?php echo base_url();?>assets/#" class="btn_2">book Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single_pricing_part">
-                        <div class="pricing_tittle">
-                            <img src="<?php echo base_url();?>assets/img/icon/feature_icon_3.svg" alt="">
-                            <p>Standard</p>
-                        </div>
-                        <div class="pricing_content">
-                            <h3>$50.00 <span>/ mo</span></h3>
-                            <ul>
-                                <li>2GB Bandwidth</li>
-                                <li>Two Account</li>
-                                <li>15GB Storage</li>
-                                <li>Sale After Service</li>
-                                <li>3 Host Domain</li>
-                                <li>24/7 Support</li>
-                            </ul>
-                            <a href="<?php echo base_url();?>assets/#" class="btn_2">book Now</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!--::pricing part end::-->
-
     <!--::blog part start::-->
     <section class="catagory_post padding_bottom">
         <div class="container">
             <div class="row">
                 <div class="col-xl-4">
                     <div class="section_tittle">
-                        <p>our blog</p>
-                        <h2>Latest story</h2>
+                        <p>Blog Kami</p>
+                        <h2>Postingan akhir-akhir ini</h2>
                     </div>
                 </div>
             </div>
@@ -331,12 +248,11 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                             <img src="<?php echo base_url();?>assets/img/blog/blog_1.png" alt="">
                         </div>
                         <div class="post_text_1 pr_30">
-                            <h5><span> By Michal</span> / March 30 , 2019</h5>
+                            <h5><span> By Jefran</span> / Maret 30 , 2019</h5>
                             <a href="<?php echo base_url();?>assets/blog.html">
-                                <h3>Mad whales gathering open can't</h3>
+                                <h3>Manfaat Praktis Kelapa Sawit</h3>
                             </a>
-                            <p>Is life form dominion under very seasons together
-                                them divide so, she'd bearing sixth </p>
+                            <p>Manfaat praktis merupakan manfaat yang dapat diperoleh dari kelapa sawit yang sudah diolah bagi kehidupan manusia dan juga sekitarnya. berikut ini adalah manfaat praktis dari kelapa sawit. </p>
                         </div>
                     </div>
                 </div>
@@ -346,27 +262,11 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                             <img src="<?php echo base_url();?>assets/img/blog/blog_2.png" alt="">
                         </div>
                         <div class="post_text_1 pr_30">
-                            <h5><span> By Michal</span> / March 30 , 2019</h5>
+                            <h5><span> By Peri</span> / April 3 , 2019</h5>
                             <a href="<?php echo base_url();?>assets/blog.html">
-                                <h3>Creepeth grass brought over man</h3>
+                                <h3>Tips Memiliki Pengelolaan Keuangan Bisnis yang Lebih Baik</h3>
                             </a>
-                            <p>Is life form dominion under very seasons together
-                                them divide so, she'd bearing sixth </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="single_catagory_post post_2">
-                        <div class="category_post_img">
-                            <img src="<?php echo base_url();?>assets/img/blog/blog_3.png" alt="">
-                        </div>
-                        <div class="post_text_1 pr_30">
-                            <h5><span> By Michal</span> / March 30 , 2019</h5>
-                            <a href="<?php echo base_url();?>assets/blog.html">
-                                <h3>Mad whales gathering open Evening</h3>
-                            </a>
-                            <p>Is life form dominion under very seasons together
-                                them divide so, she'd bearing sixth </p>
+                            <p>Agar proses pemeriksaan keuangan menjadi mudah dan Anda juga lebih memahami sistem keuangan yang dikelola, berikut adalah beberapa tips untuk memiliki pengelolaan keuangan bisnis yang lebih baik. </p>
                         </div>
                     </div>
                 </div>
