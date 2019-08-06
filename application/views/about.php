@@ -1,5 +1,9 @@
 <?php $this->load->view('layout/header');?>
 
+    <!--::banner part start::-->
+    <section class="banner_part" style="background-image: url('<?php echo base_url();?>assets/img/banner_bg1.jpg');">
+    </section>
+    <!--::banner part start::-->
     <!-- breadcrumb start-->
     <section class="breadcrumb breadcrumb_bg">
         <div class="container">
