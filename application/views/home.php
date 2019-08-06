@@ -51,7 +51,7 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
             <div class="row">
                 <div class="col-lg-5 offset-lg-2">
                     <div class="section_tittle">
-                        <p>Struktur Perkebunan Kelapa Sawit Provinsi Riau</p>
+                        <p>Aktifitas para petani di </p>
                         <h2>Perkebunan Kelapa Sawit</h2>
                     </div>
                 </div>
@@ -62,9 +62,6 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                         <ul>
                             <li class="active" data-filter="1">Sosial Ekonomi</li>
                             <li data-filter="2">Pembangunan</li>
-                            <li data-filter="3">fashion</li>
-                            <li data-filter="4">portrait</li>
-                            <li data-filter="5">magazine</li>
                         </ul>
                     </div>
                 </div>
