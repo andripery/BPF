@@ -9,23 +9,23 @@
 
 <html lang="en">
   <head>
-    <base href="<?php echo base_url();?>assets/admin/./">
+    <base src="<?php echo base_url();?>assets/admin/./">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
     <meta name="author" content="Łukasz Holeczek">
     <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
-    <title>Elaeis </title>
+    <title>CoreUI Free Bootstrap Admin Template</title>
     <!-- Icons-->
-    <link rel="icon" type="image/ico" href="<?php echo base_url();?>assets/img/favicon1.png" sizes="any" />
-    <link href="<?php echo base_url();?>assets/admin/node_modules/@coreui/icons/css/coreui-icons.min.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>assets/admin/node_modules/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>assets/admin/node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>assets/admin/node_modules/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link rel="icon" type="image/ico" src="<?php echo base_url();?>assets/admin/./img/favicon.ico" sizes="any" />
+    <link src="<?php echo base_url();?>assets/admin/node_modules/@coreui/icons/css/coreui-icons.min.css" rel="stylesheet">
+    <link src="<?php echo base_url();?>assets/admin/node_modules/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
+    <link src="<?php echo base_url();?>assets/admin/node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link src="<?php echo base_url();?>assets/admin/node_modules/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
     <!-- Main styles for this application-->
-    <link href="<?php echo base_url();?>assets/admin/css/style.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>assets/admin/vendors/pace-progress/css/pace.min.css" rel="stylesheet">
+    <link src="<?php echo base_url();?>assets/admin/css/style.css" rel="stylesheet">
+    <link src="<?php echo base_url();?>assets/admin/vendors/pace-progress/css/pace.min.css" rel="stylesheet">
     <!-- Global site tag (gtag.js) - Google Analytics-->
     <script async="" src="<?php echo base_url();?>assets/admin/https://www.googletagmanager.com/gtag/js?id=UA-118965717-3"></script>
     <script>
@@ -46,84 +46,84 @@
       <button class="navbar-toggler sidebar-toggler d-lg-none mr-auto" type="button" data-toggle="sidebar-show">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="<?php echo site_url('welcome/admin');?>">
-        <img class="navbar-brand-full" src="<?php echo base_url();?>assets/img/logoo.png" width="120" height="25" alt="CoreUI Logo">
-        <img class="navbar-brand-minimized" src="<?php echo site_url('welcome/admin');?>assets/admin/img/brand/sygnet.svg" width="30" height="30" alt="CoreUI Logo">
+      <a class="navbar-brand" src="<?php echo base_url();?>assets/admin/#">
+        <img class="navbar-brand-full" src="<?php echo base_url();?>assets/admin/img/brand/logo.svg" width="89" height="25" alt="CoreUI Logo">
+        <img class="navbar-brand-minimized" src="<?php echo base_url();?>assets/admin/img/brand/sygnet.svg" width="30" height="30" alt="CoreUI Logo">
       </a>
       <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <!-- <ul class="nav navbar-nav d-md-down-none">
+      <ul class="nav navbar-nav d-md-down-none">
         <li class="nav-item px-3">
-          <a class="nav-link" href="<?php echo base_url();?>assets/admin/#">Dashboard</a>
+          <a class="nav-link" src="<?php echo base_url();?>assets/admin/#">Dashboard</a>
         </li>
         <li class="nav-item px-3">
-          <a class="nav-link" href="<?php echo base_url();?>assets/admin/#">Users</a>
+          <a class="nav-link" src="<?php echo base_url();?>assets/admin/#">Users</a>
         </li>
         <li class="nav-item px-3">
-          <a class="nav-link" href="<?php echo base_url();?>assets/admin/#">Settings</a>
+          <a class="nav-link" src="<?php echo base_url();?>assets/admin/#">Settings</a>
         </li>
-      </ul> -->
+      </ul>
       <ul class="nav navbar-nav ml-auto">
-        <!-- <li class="nav-item d-md-down-none">
-          <a class="nav-link" href="<?php echo base_url();?>assets/admin/#">
+        <li class="nav-item d-md-down-none">
+          <a class="nav-link" src="<?php echo base_url();?>assets/admin/#">
             <i class="icon-bell"></i>
             <span class="badge badge-pill badge-danger">5</span>
           </a>
-        </li> -->
-       <!--  <li class="nav-item d-md-down-none">
-          <a class="nav-link" href="<?php echo base_url();?>assets/admin/#">
+        </li>
+        <li class="nav-item d-md-down-none">
+          <a class="nav-link" src="<?php echo base_url();?>assets/admin/#">
             <i class="icon-list"></i>
           </a>
-        </li> -->
-        <!-- <li class="nav-item d-md-down-none">
-          <a class="nav-link" href="<?php echo base_url();?>assets/admin/#">
+        </li>
+        <li class="nav-item d-md-down-none">
+          <a class="nav-link" src="<?php echo base_url();?>assets/admin/#">
             <i class="icon-location-pin"></i>
           </a>
-        </li> -->
+        </li>
         <li class="nav-item dropdown">
-          <a class="nav-link" data-toggle="dropdown" href="<?php echo base_url();?>assets/admin/#" role="button" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link" data-toggle="dropdown" src="<?php echo base_url();?>assets/admin/#" role="button" aria-haspopup="true" aria-expanded="false">
             <img class="img-avatar" src="<?php echo base_url();?>assets/admin/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
           </a>
           <div class="dropdown-menu dropdown-menu-right">
             <div class="dropdown-header text-center">
               <strong>Account</strong>
             </div>
-            <a class="dropdown-item" href="<?php echo base_url();?>assets/admin/#">
+            <a class="dropdown-item" src="<?php echo base_url();?>assets/admin/#">
               <i class="fa fa-bell-o"></i> Updates
               <span class="badge badge-info">42</span>
             </a>
-            <a class="dropdown-item" href="<?php echo base_url();?>assets/admin/#">
+            <a class="dropdown-item" src="<?php echo base_url();?>assets/admin/#">
               <i class="fa fa-envelope-o"></i> Messages
               <span class="badge badge-success">42</span>
             </a>
-            <a class="dropdown-item" href="<?php echo base_url();?>assets/admin/#">
+            <a class="dropdown-item" src="<?php echo base_url();?>assets/admin/#">
               <i class="fa fa-tasks"></i> Tasks
               <span class="badge badge-danger">42</span>
             </a>
-            <a class="dropdown-item" href="<?php echo base_url();?>assets/admin/#">
+            <a class="dropdown-item" src="<?php echo base_url();?>assets/admin/#">
               <i class="fa fa-comments"></i> Comments
               <span class="badge badge-warning">42</span>
             </a>
             <div class="dropdown-header text-center">
               <strong>Settings</strong>
             </div>
-            <a class="dropdown-item" href="<?php echo base_url();?>assets/admin/#">
+            <a class="dropdown-item" src="<?php echo base_url();?>assets/admin/#">
               <i class="fa fa-user"></i> Profile</a>
-            <a class="dropdown-item" href="<?php echo base_url();?>assets/admin/#">
+            <a class="dropdown-item" src="<?php echo base_url();?>assets/admin/#">
               <i class="fa fa-wrench"></i> Settings</a>
-            <a class="dropdown-item" href="<?php echo base_url();?>assets/admin/#">
+            <a class="dropdown-item" src="<?php echo base_url();?>assets/admin/#">
               <i class="fa fa-usd"></i> Payments
               <span class="badge badge-secondary">42</span>
             </a>
-            <a class="dropdown-item" href="<?php echo base_url();?>assets/admin/#">
+            <a class="dropdown-item" src="<?php echo base_url();?>assets/admin/#">
               <i class="fa fa-file"></i> Projects
               <span class="badge badge-primary">42</span>
             </a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="<?php echo base_url();?>assets/admin/#">
+            <a class="dropdown-item" src="<?php echo base_url();?>assets/admin/#">
               <i class="fa fa-shield"></i> Lock Account</a>
-            <a class="dropdown-item" href="<?php echo base_url();?>assets/admin/#">
+            <a class="dropdown-item" src="<?php echo base_url();?>assets/admin/#">
               <i class="fa fa-lock"></i> Logout</a>
           </div>
         </li>
@@ -140,163 +140,163 @@
         <nav class="sidebar-nav">
           <ul class="nav">
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo base_url();?>assets/admin/index.html">
+              <a class="nav-link" src="<?php echo base_url();?>assets/admin/index.html">
                 <i class="nav-icon icon-speedometer"></i> Dashboard
                 <span class="badge badge-primary">NEW</span>
               </a>
             </li>
             <li class="nav-title">Theme</li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo base_url();?>assets/admin/colors.html">
+              <a class="nav-link" src="<?php echo base_url();?>assets/admin/colors.html">
                 <i class="nav-icon icon-drop"></i> Colors</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo base_url();?>assets/admin/typography.html">
+              <a class="nav-link" src="<?php echo base_url();?>assets/admin/typography.html">
                 <i class="nav-icon icon-pencil"></i> Typography</a>
             </li>
             <li class="nav-title">Components</li>
             <li class="nav-item nav-dropdown">
-              <a class="nav-link nav-dropdown-toggle" href="<?php echo base_url();?>assets/admin/#">
+              <a class="nav-link nav-dropdown-toggle" src="<?php echo base_url();?>assets/admin/#">
                 <i class="nav-icon icon-puzzle"></i> Base</a>
               <ul class="nav-dropdown-items">
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/base/breadcrumb.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/base/breadcrumb.html">
                     <i class="nav-icon icon-puzzle"></i> Breadcrumb</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/base/cards.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/base/cards.html">
                     <i class="nav-icon icon-puzzle"></i> Cards</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/base/carousel.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/base/carousel.html">
                     <i class="nav-icon icon-puzzle"></i> Carousel</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/base/collapse.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/base/collapse.html">
                     <i class="nav-icon icon-puzzle"></i> Collapse</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/base/forms.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/base/forms.html">
                     <i class="nav-icon icon-puzzle"></i> Forms</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/base/jumbotron.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/base/jumbotron.html">
                     <i class="nav-icon icon-puzzle"></i> Jumbotron</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/base/list-group.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/base/list-group.html">
                     <i class="nav-icon icon-puzzle"></i> List group</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/base/navs.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/base/navs.html">
                     <i class="nav-icon icon-puzzle"></i> Navs</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/base/pagination.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/base/pagination.html">
                     <i class="nav-icon icon-puzzle"></i> Pagination</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/base/popovers.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/base/popovers.html">
                     <i class="nav-icon icon-puzzle"></i> Popovers</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/base/progress.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/base/progress.html">
                     <i class="nav-icon icon-puzzle"></i> Progress</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/base/scrollspy.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/base/scrollspy.html">
                     <i class="nav-icon icon-puzzle"></i> Scrollspy</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/base/switches.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/base/switches.html">
                     <i class="nav-icon icon-puzzle"></i> Switches</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/base/tables.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/base/tables.html">
                     <i class="nav-icon icon-puzzle"></i> Tables</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/base/tabs.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/base/tabs.html">
                     <i class="nav-icon icon-puzzle"></i> Tabs</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/base/tooltips.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/base/tooltips.html">
                     <i class="nav-icon icon-puzzle"></i> Tooltips</a>
                 </li>
               </ul>
             </li>
             <li class="nav-item nav-dropdown">
-              <a class="nav-link nav-dropdown-toggle" href="<?php echo base_url();?>assets/admin/#">
+              <a class="nav-link nav-dropdown-toggle" src="<?php echo base_url();?>assets/admin/#">
                 <i class="nav-icon icon-cursor"></i> Buttons</a>
               <ul class="nav-dropdown-items">
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/buttons/buttons.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/buttons/buttons.html">
                     <i class="nav-icon icon-cursor"></i> Buttons</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/buttons/button-group.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/buttons/button-group.html">
                     <i class="nav-icon icon-cursor"></i> Buttons Group</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/buttons/dropdowns.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/buttons/dropdowns.html">
                     <i class="nav-icon icon-cursor"></i> Dropdowns</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/buttons/brand-buttons.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/buttons/brand-buttons.html">
                     <i class="nav-icon icon-cursor"></i> Brand Buttons</a>
                 </li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo base_url();?>assets/admin/charts.html">
+              <a class="nav-link" src="<?php echo base_url();?>assets/admin/charts.html">
                 <i class="nav-icon icon-pie-chart"></i> Charts</a>
             </li>
             <li class="nav-item nav-dropdown">
-              <a class="nav-link nav-dropdown-toggle" href="<?php echo base_url();?>assets/admin/#">
+              <a class="nav-link nav-dropdown-toggle" src="<?php echo base_url();?>assets/admin/#">
                 <i class="nav-icon icon-star"></i> Icons</a>
               <ul class="nav-dropdown-items">
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/icons/coreui-icons.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/icons/coreui-icons.html">
                     <i class="nav-icon icon-star"></i> CoreUI Icons
                     <span class="badge badge-success">NEW</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/icons/flags.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/icons/flags.html">
                     <i class="nav-icon icon-star"></i> Flags</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/icons/font-awesome.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/icons/font-awesome.html">
                     <i class="nav-icon icon-star"></i> Font Awesome
                     <span class="badge badge-secondary">4.7</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/icons/simple-line-icons.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/icons/simple-line-icons.html">
                     <i class="nav-icon icon-star"></i> Simple Line Icons</a>
                 </li>
               </ul>
             </li>
             <li class="nav-item nav-dropdown">
-              <a class="nav-link nav-dropdown-toggle" href="<?php echo base_url();?>assets/admin/#">
+              <a class="nav-link nav-dropdown-toggle" src="<?php echo base_url();?>assets/admin/#">
                 <i class="nav-icon icon-bell"></i> Notifications</a>
               <ul class="nav-dropdown-items">
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/notifications/alerts.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/notifications/alerts.html">
                     <i class="nav-icon icon-bell"></i> Alerts</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/notifications/badge.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/notifications/badge.html">
                     <i class="nav-icon icon-bell"></i> Badge</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/notifications/modals.html">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/notifications/modals.html">
                     <i class="nav-icon icon-bell"></i> Modals</a>
                 </li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo base_url();?>assets/admin/widgets.html">
+              <a class="nav-link" src="<?php echo base_url();?>assets/admin/widgets.html">
                 <i class="nav-icon icon-calculator"></i> Widgets
                 <span class="badge badge-primary">NEW</span>
               </a>
@@ -304,33 +304,33 @@
             <li class="divider"></li>
             <li class="nav-title">Extras</li>
             <li class="nav-item nav-dropdown">
-              <a class="nav-link nav-dropdown-toggle" href="<?php echo base_url();?>assets/admin/#">
+              <a class="nav-link nav-dropdown-toggle" src="<?php echo base_url();?>assets/admin/#">
                 <i class="nav-icon icon-star"></i> Pages</a>
               <ul class="nav-dropdown-items">
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/login.html" target="_top">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/login.html" target="_top">
                     <i class="nav-icon icon-star"></i> Login</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/register.html" target="_top">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/register.html" target="_top">
                     <i class="nav-icon icon-star"></i> Register</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/404.html" target="_top">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/404.html" target="_top">
                     <i class="nav-icon icon-star"></i> Error 404</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>assets/admin/500.html" target="_top">
+                  <a class="nav-link" src="<?php echo base_url();?>assets/admin/500.html" target="_top">
                     <i class="nav-icon icon-star"></i> Error 500</a>
                 </li>
               </ul>
             </li>
             <li class="nav-item mt-auto">
-              <a class="nav-link nav-link-success" href="<?php echo base_url();?>assets/admin/https://coreui.io" target="_top">
+              <a class="nav-link nav-link-success" src="<?php echo base_url();?>assets/admin/https://coreui.io" target="_top">
                 <i class="nav-icon icon-cloud-download"></i> Download CoreUI</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-danger" href="<?php echo base_url();?>assets/admin/https://coreui.io/pro/" target="_top">
+              <a class="nav-link nav-link-danger" src="<?php echo base_url();?>assets/admin/https://coreui.io/pro/" target="_top">
                 <i class="nav-icon icon-layers"></i> Try CoreUI
                 <strong>PRO</strong>
               </a>
@@ -344,18 +344,18 @@
         <ol class="breadcrumb">
           <li class="breadcrumb-item">Home</li>
           <li class="breadcrumb-item">
-            <a href="<?php echo base_url();?>assets/admin/#">Admin</a>
+            <a src="<?php echo base_url();?>assets/admin/#">Admin</a>
           </li>
           <li class="breadcrumb-item active">Dashboard</li>
           <!-- Breadcrumb Menu-->
           <li class="breadcrumb-menu d-md-down-none">
             <div class="btn-group" role="group" aria-label="Button group">
-              <a class="btn" href="<?php echo base_url();?>assets/admin/#">
+              <a class="btn" src="<?php echo base_url();?>assets/admin/#">
                 <i class="icon-speech"></i>
               </a>
-              <a class="btn" href="<?php echo base_url();?>assets/admin/./">
+              <a class="btn" src="<?php echo base_url();?>assets/admin/./">
                 <i class="icon-graph"></i>  Dashboard</a>
-              <a class="btn" href="<?php echo base_url();?>assets/admin/#">
+              <a class="btn" src="<?php echo base_url();?>assets/admin/#">
                 <i class="icon-settings"></i>  Settings</a>
             </div>
           </li>
@@ -371,9 +371,9 @@
                         <i class="icon-settings"></i>
                       </button>
                       <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="<?php echo base_url();?>assets/admin/#">Action</a>
-                        <a class="dropdown-item" href="<?php echo base_url();?>assets/admin/#">Another action</a>
-                        <a class="dropdown-item" href="<?php echo base_url();?>assets/admin/#">Something else here</a>
+                        <a class="dropdown-item" src="<?php echo base_url();?>assets/admin/#">Action</a>
+                        <a class="dropdown-item" src="<?php echo base_url();?>assets/admin/#">Another action</a>
+                        <a class="dropdown-item" src="<?php echo base_url();?>assets/admin/#">Something else here</a>
                       </div>
                     </div>
                     <div class="text-value">9.823</div>
@@ -408,9 +408,9 @@
                         <i class="icon-settings"></i>
                       </button>
                       <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="<?php echo base_url();?>assets/admin/#">Action</a>
-                        <a class="dropdown-item" href="<?php echo base_url();?>assets/admin/#">Another action</a>
-                        <a class="dropdown-item" href="<?php echo base_url();?>assets/admin/#">Something else here</a>
+                        <a class="dropdown-item" src="<?php echo base_url();?>assets/admin/#">Action</a>
+                        <a class="dropdown-item" src="<?php echo base_url();?>assets/admin/#">Another action</a>
+                        <a class="dropdown-item" src="<?php echo base_url();?>assets/admin/#">Something else here</a>
                       </div>
                     </div>
                     <div class="text-value">9.823</div>
@@ -430,9 +430,9 @@
                         <i class="icon-settings"></i>
                       </button>
                       <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="<?php echo base_url();?>assets/admin/#">Action</a>
-                        <a class="dropdown-item" href="<?php echo base_url();?>assets/admin/#">Another action</a>
-                        <a class="dropdown-item" href="<?php echo base_url();?>assets/admin/#">Something else here</a>
+                        <a class="dropdown-item" src="<?php echo base_url();?>assets/admin/#">Action</a>
+                        <a class="dropdown-item" src="<?php echo base_url();?>assets/admin/#">Another action</a>
+                        <a class="dropdown-item" src="<?php echo base_url();?>assets/admin/#">Something else here</a>
                       </div>
                     </div>
                     <div class="text-value">9.823</div>
@@ -1083,17 +1083,17 @@
       <aside class="aside-menu">
         <ul class="nav nav-tabs" role="tablist">
           <li class="nav-item">
-            <a class="nav-link active" data-toggle="tab" href="<?php echo base_url();?>assets/admin/#timeline" role="tab">
+            <a class="nav-link active" data-toggle="tab" src="<?php echo base_url();?>assets/admin/#timeline" role="tab">
               <i class="icon-list"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="<?php echo base_url();?>assets/admin/#messages" role="tab">
+            <a class="nav-link" data-toggle="tab" src="<?php echo base_url();?>assets/admin/#messages" role="tab">
               <i class="icon-speech"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="<?php echo base_url();?>assets/admin/#settings" role="tab">
+            <a class="nav-link" data-toggle="tab" src="<?php echo base_url();?>assets/admin/#settings" role="tab">
               <i class="icon-settings"></i>
             </a>
           </li>
@@ -1368,12 +1368,12 @@
     </div>
     <footer class="app-footer">
       <div>
-        <a href="<?php echo base_url();?>assets/admin/https://coreui.io">CoreUI</a>
+        <a src="<?php echo base_url();?>assets/admin/https://coreui.io">CoreUI</a>
         <span>&copy; 2018 creativeLabs.</span>
       </div>
       <div class="ml-auto">
         <span>Powered by</span>
-        <a href="<?php echo base_url();?>assets/admin/https://coreui.io">CoreUI</a>
+        <a src="<?php echo base_url();?>assets/admin/https://coreui.io">CoreUI</a>
       </div>
     </footer>
     <!-- CoreUI and necessary plugins-->
