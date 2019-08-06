@@ -88,8 +88,8 @@
                             </ul>
                         </div>
                         <div class="dropdown cart">
-                            <a class="dropdown-toggle" href="<?php echo site_url('welcome/login');?>" id="navbarDropdown3" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a href="<?php echo site_url('welcome/login');?>" role="button"
+                                 aria-haspopup="true" aria-expanded="false">
                                 <!-- <i class="flaticon-bag"></i> -->
                                 <img src="<?php echo base_url();?>assets/img/person.png" width="25px" alt="logo">
                             </a>

@@ -27,4 +27,19 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('blog');
 	}
+
+	public function about()
+	{
+		$this->load->view('about');
+	}
+
+	public function contact()
+	{
+		$this->load->view('contact');
+	}
+
+	public function login()
+	{
+		$this->load->view('login');
+	}
 }
