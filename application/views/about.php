@@ -7,7 +7,7 @@
                 <div class="col-lg-12">
                     <div class="breadcrumb_iner text-center">
                         <div class="breadcrumb_iner_item">
-                            <h2>anout <span>us</span></h2>
+                            <h2>about <span>us</span></h2>
                         </div>
                     </div>
                 </div>
