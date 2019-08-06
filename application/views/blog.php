@@ -42,7 +42,7 @@
                             </div>
                         </article>
 
-                        <article class="blog_item">
+                        <!-- <article class="blog_item">
                             <div class="blog_item_img">
                                 <img class="card-img rounded-0" src="<?php echo base_url();?>assets/img/blog/single_blog_2.png" alt="">
                                 <a href="<?php echo base_url();?>assets/#" class="blog_item_date">
@@ -128,7 +128,7 @@
                                     <li><a href="<?php echo base_url();?>assets/#"><i class="far fa-comments"></i> 03 Comments</a></li>
                                 </ul>
                             </div>
-                        </article>
+                        </article> -->
 
                         <nav class="blog-pagination justify-content-center d-flex">
                             <ul class="pagination">
@@ -171,7 +171,7 @@
                             </form>
                         </aside>
 
-                        <aside class="single_sidebar_widget post_category_widget">
+                        <!-- <aside class="single_sidebar_widget post_category_widget">
                             <h4 class="widget_title">Category</h4>
                             <ul class="list cat-list">
                                 <li>
@@ -337,7 +337,7 @@
                                     <div class="info"></div>
                                 </form>
                             </div>
-                        </aside>
+                        </aside> -->
                     </div>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 <?php $this->load->view('layout/header');?>
 
   <!--::banner part start::-->
-    <section class="banner_part" style="background-image: url('<?php echo base_url();?>assets/img/banner_bg.jpg');">
+    <section class="banner_part" style="background-image: url('<?php echo base_url();?>assets/img/banner_bg1.jpg');">
         <div class="container">
             <div class="row align-items-center justify-content-end">
                 <div class="col-lg-5">
