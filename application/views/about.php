@@ -44,7 +44,7 @@ Untuk itu, pengenalan manajemen keuangan itu sendiri sangat dibutuhkan untuk par
                         <h2>Our project video</h2>
                         <div class="intro_video_icon">
                             <a id="play-video_1" class="video-play-button popup-youtube"
-                                href="https://www.youtube.com/watch?v=pBFQdxA-apI">
+                                href="https://www.youtube.com/watch?v=9-8utRYZ-vs">
                                 <span class="ti-control-play"></span>
                             </a>
                         </div>
