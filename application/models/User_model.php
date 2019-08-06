@@ -5,9 +5,9 @@
 class User_model extends CI_Model
 {
 	public function login($username_user,$password_user){
-		return $this->db->query("select * from login where 
-							username='".$username_user."' 
-							and password='".$password_user."'")->row();
+		// return $this->db->query("select * from login where 
+		// 					username='".$username_user."' 
+		// 					and password='".$password_user."'")->row();
 	}
 
 	// public function insert($data)
@@ -27,10 +27,10 @@ class User_model extends CI_Model
 	// 	$this->db->update('user',$data);
 	// }
 
-	// public function select()
-	// {
-	// 	return $this->db->get('user')->result();
-	// }
+	public function select()
+	{
+		return $this->db->get('user')->result();
+	}
 	// public function register($username_user,$email_user,$password_user){
 	// 	return $this->db->query("insert into tib(	nama_user,email_user,password_user)
 	// 		values ('$username_user','$email_user','$password_user')");
