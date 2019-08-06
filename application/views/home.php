@@ -45,50 +45,6 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
     </section>
     <!--::about_us part end::-->
 
-    <!-- gallery_part part start-->
-    <section class="gallery_part section_padding">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-5 offset-lg-2">
-                    <div class="section_tittle">
-                        <p>Struktur Perkebunan Kelapa Sawit Provinsi Riau</p>
-                        <h2>Perkebunan Kelapa Sawit</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="portfolio-filter filters">
-                        <ul>
-                            <li class="active" data-filter="1">Sosial Ekonomi</li>
-                            <li data-filter="2">Pembangunan</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="gallery_part_item filtr-container">
-                        <a href="<?php echo base_url();?>" data-category="1">
-                            <div class="single_gallery_item">
-                                <div class="single_gallery_item_iner">
-                                    <div class="gallery_item_text">
-                                        <p>Fashion photography</p>
-                                        <h4>Smiling beutiful women</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="<?php echo base_url();?> data-category="2">
-                            <p>Fashion photography</p>
-                            <h4>Smiling beutiful women</h4>     
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- gallery_part part end-->
 
     <!--::our_service part start::-->
     <section class="our_service padding_bottom">
