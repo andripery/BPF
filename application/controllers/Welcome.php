@@ -47,7 +47,7 @@ class Welcome extends CI_Controller {
 	{
 		$username = $this->input->post("username");
 		$password = $this->input->post("password");
-		$cek_login = $this->User_model->login($username,md5($password));
+		$cek_login = $this->User_model->login($username,$password);
 
 		if(empty($cek_login)) redirect("/");
 		else redirect(site_url('welcome/admin'));
