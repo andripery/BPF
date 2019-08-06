@@ -10,27 +10,27 @@ class User_model extends CI_Model
 							and password='".$password_user."'")->row();
 	}
 
-	public function insert($data)
-	{
-		$this->db->insert('user',$data);
-	}
+	// public function insert($data)
+	// {
+	// 	$this->db->insert('user',$data);
+	// }
 
-	public function delete($id)
-	{
-		$this->db->where('id_user',$id);
-		$this->db->delete('user');
-	}
+	// public function delete($id)
+	// {
+	// 	$this->db->where('id_user',$id);
+	// 	$this->db->delete('user');
+	// }
 
-	public function update($id,$data)
-	{
-		$this->db->where('id_user',$id);
-		$this->db->update('user',$data);
-	}
+	// public function update($id,$data)
+	// {
+	// 	$this->db->where('id_user',$id);
+	// 	$this->db->update('user',$data);
+	// }
 
-	public function select()
-	{
-		return $this->db->get('user')->result();
-	}
+	// public function select()
+	// {
+	// 	return $this->db->get('user')->result();
+	// }
 	// public function register($username_user,$email_user,$password_user){
 	// 	return $this->db->query("insert into tib(	nama_user,email_user,password_user)
 	// 		values ('$username_user','$email_user','$password_user')");
