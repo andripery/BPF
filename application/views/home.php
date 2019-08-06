@@ -60,8 +60,8 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                 <div class="col-lg-8 offset-lg-2">
                     <div class="portfolio-filter filters">
                         <ul>
-                            <li class="active" data-filter="1">Sosial Ekonomi</li>
-                            <li data-filter="2">Pembangunan</li>
+                            <li class="active" data-filter="1">Menanam sawit</li>
+                            <li data-filter="2">Panen</li>
                         </ul>
                     </div>
                 </div>
@@ -69,8 +69,8 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
             <div class="row">
                 <div class="col-xl-12">
                     <div class="gallery_part_item filtr-container">
-                        <a href="<?php echo base_url();?>assets/portfolio_details.html" class="img-gal filtr-item" data-category="1"
-                            style="background-image: url('<?php echo base_url();?>assets/img/gallery/gallery_item_1.png')">
+                        <a href="<?php echo base_url();?>" class="img-gal filtr-item" data-category="1"
+                            style="background-image: url('<?php echo base_url();?>assets/img/gallery/tanam.jpg')">
                             <div class="single_gallery_item">
                                 <div class="single_gallery_item_iner">
                                     <div class="gallery_item_text">
@@ -80,52 +80,8 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                                 </div>
                             </div>
                         </a>
-                        <a href="<?php echo base_url();?>assets/portfolio_details.html" class="img-gal width-1 filtr-item" data-category="1"
-                            style="background-image: url('<?php echo base_url();?>assets/img/gallery/gallery_item_2.png')">
-                            <div class="single_gallery_item">
-                                <div class="single_gallery_item_iner">
-                                    <div class="gallery_item_text">
-                                        <p>Fashion photography</p>
-                                        <h4>Smiling beutiful women</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="<?php echo base_url();?>assets/portfolio_details.html" class="img-gal width-2 filtr-item" data-category="3"
-                            style="background-image: url('<?php echo base_url();?>assets/img/gallery/gallery_item_3.png')">
-                            <div class="single_gallery_item">
-                                <div class="single_gallery_item_iner">
-                                    <div class="gallery_item_text">
-                                        <p>Fashion photography</p>
-                                        <h4>Smiling beutiful women</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="<?php echo base_url();?>assets/portfolio_details.html" class="img-gal width-2 filtr-item" data-category="4"
-                            style="background-image: url('<?php echo base_url();?>assets/img/gallery/gallery_item_4.png')">
-                            <div class="single_gallery_item">
-                                <div class="single_gallery_item_iner">
-                                    <div class="gallery_item_text">
-                                        <p>Fashion photography</p>
-                                        <h4>Smiling beutiful women</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="<?php echo base_url();?>assets/portfolio_details.html" class="img-gal width-1 filtr-item" data-category="1"
-                            style="background-image: url('<?php echo base_url();?>assets/img/gallery/gallery_item_5.png')">
-                            <div class="single_gallery_item">
-                                <div class="single_gallery_item_iner">
-                                    <div class="gallery_item_text">
-                                        <p>Fashion photography</p>
-                                        <h4>Smiling beutiful women</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="<?php echo base_url();?>assets/portfolio_details.html" class="img-gal filtr-item" data-category="2"
-                            style="background-image: url('<?php echo base_url();?>assets/img/gallery/gallery_item_6.png')">
+                        <a href="<?php echo base_url();?>" class="img-gal width-1 filtr-item" data-category="2"
+                            style="background-image: url('<?php echo base_url();?>assets/img/gallery/panen.jpg')">
                             <div class="single_gallery_item">
                                 <div class="single_gallery_item_iner">
                                     <div class="gallery_item_text">
