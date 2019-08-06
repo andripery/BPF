@@ -5,9 +5,9 @@
 class User_model extends CI_Model
 {
 	public function login($username_user,$password_user){
-		// return $this->db->query("select * from login where 
-		// 					username='".$username_user."' 
-		// 					and password='".$password_user."'")->row();
+		return $this->db->query("select * from login where 
+							username='".$username_user."' 
+							and password='".$password_user."'")->row();
 	}
 
 	// public function insert($data)

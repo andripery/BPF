@@ -24,7 +24,7 @@ class Welcome extends CI_Controller {
 		parent::__construct();
 		$this->load->model('User_model');
 	}
-	
+
 	public function index()
 	{
 		$this->load->view('home');
@@ -60,7 +60,7 @@ class Welcome extends CI_Controller {
 		else redirect(site_url('welcome/admin'));
 	}
 
-	public function admin($value='')
+	public function admin()
 	{
 		$this->load->view('admin');
 	}
