@@ -45,23 +45,6 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
     </section>
     <!--::about_us part end::-->
 
-    <!-- gallery_part part start-->
-    <section class="gallery_part section_padding">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-5 offset-lg-2">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="portfolio-filter filters">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- gallery_part part end-->
-
     <!--::our_service part start::-->
     <section class="our_service padding_bottom">
         <div class="container">
@@ -139,7 +122,6 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                             <h3>Mitchel Jeferson, <span>CEO of softking</span> </h3>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
