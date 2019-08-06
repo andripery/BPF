@@ -88,9 +88,10 @@
                             </ul>
                         </div>
                         <div class="dropdown cart">
-                            <a class="dropdown-toggle" href="<?php echo base_url();?>assets/#" id="navbarDropdown3" role="button"
+                            <a class="dropdown-toggle" href="<?php echo site_url('welcome/login');?>" id="navbarDropdown3" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="flaticon-bag"></i>
+                                <!-- <i class="flaticon-bag"></i> -->
+                                <img src="<?php echo base_url();?>assets/img/person.png" width="25px" alt="logo">
                             </a>
                             <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <div class="single_product">
