@@ -80,8 +80,30 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                                 </div>
                             </div>
                         </a>
+                        <a href="<?php echo base_url();?>" class="img-gal width-1 filtr-item" data-category="1"
+                            style="background-image: url('<?php echo base_url();?>assets/img/gallery/tanam2.jpg')">
+                            <div class="single_gallery_item">
+                                <div class="single_gallery_item_iner">
+                                    <div class="gallery_item_text">
+                                        <p>Fashion photography</p>
+                                        <h4>Smiling beutiful women</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                         <a href="<?php echo base_url();?>" class="img-gal width-1 filtr-item" data-category="2"
                             style="background-image: url('<?php echo base_url();?>assets/img/gallery/panen.jpg')">
+                            <div class="single_gallery_item">
+                                <div class="single_gallery_item_iner">
+                                    <div class="gallery_item_text">
+                                        <p>Fashion photography</p>
+                                        <h4>Smiling beutiful women</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="<?php echo base_url();?>" class="img-gal width-1 filtr-item" data-category="2"
+                            style="background-image: url('<?php echo base_url();?>assets/img/gallery/panen2.jpg')">
                             <div class="single_gallery_item">
                                 <div class="single_gallery_item_iner">
                                     <div class="gallery_item_text">
