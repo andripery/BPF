@@ -74,8 +74,8 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                             <div class="single_gallery_item">
                                 <div class="single_gallery_item_iner">
                                     <div class="gallery_item_text">
-                                        <p>Fashion photography</p>
-                                        <h4>Smiling beutiful women</h4>
+                                        <p>Proses</p>
+                                        <h4>Menanam Sawit</h4>
                                     </div>
                                 </div>
                             </div>
@@ -85,8 +85,8 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                             <div class="single_gallery_item">
                                 <div class="single_gallery_item_iner">
                                     <div class="gallery_item_text">
-                                        <p>Fashion photography</p>
-                                        <h4>Smiling beutiful women</h4>
+                                        <p>Proses</p>
+                                        <h4>Menanam Sawit</h4>
                                     </div>
                                 </div>
                             </div>
@@ -96,8 +96,8 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                             <div class="single_gallery_item">
                                 <div class="single_gallery_item_iner">
                                     <div class="gallery_item_text">
-                                        <p>Fashion photography</p>
-                                        <h4>Smiling beutiful women</h4>
+                                        <p>Proses</p>
+                                        <h4>Panen Sawit</h4>
                                     </div>
                                 </div>
                             </div>
@@ -107,8 +107,8 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                             <div class="single_gallery_item">
                                 <div class="single_gallery_item_iner">
                                     <div class="gallery_item_text">
-                                        <p>Fashion photography</p>
-                                        <h4>Smiling beutiful women</h4>
+                                        <p>Proses</p>
+                                        <h4>Panen Sawit</h4>
                                     </div>
                                 </div>
                             </div>
