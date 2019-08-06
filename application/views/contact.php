@@ -1,20 +1,20 @@
 <?php $this->load->view('layout/header');?>
 
-<!-- breadcrumb start-->
-  <section class="breadcrumb breadcrumb_bg">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="breadcrumb_iner text-center">
-            <div class="breadcrumb_iner_item">
-              <h2>contact</h2>
+<!--::banner part start::-->
+    <section class="banner_part" style="background-image: url('<?php echo base_url();?>assets/img/banner_bg1.jpg');">
+        <div class="container">
+            <div class="row align-items-center justify-content-end">
+                <div class="col-lg-5">
+                    <div class="banner_text text-center">
+                        <div class="banner_text_iner">        
+                            <h1>Contact<span>Us</span></h1>
+                        </div>
+                    </div>
+                </div>  
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- breadcrumb start-->
+    </section>
+    <!--::banner part start::-->
 
   <!-- ================ contact section start ================= -->
   <section class="contact-section section_padding">

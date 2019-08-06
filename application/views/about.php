@@ -14,7 +14,6 @@
         </div>
     </section>
     <!--::banner part start::-->
-    <!-- breadcrumb start-->
 
     <!--::about_us part start::-->
     <section class="about_us section_padding">
