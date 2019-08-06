@@ -21,16 +21,12 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-8">
                     <div class="about_us_text text-center">
-                        <h5>About our studio</h5>
-                        <h2>The Camera Is An Instrument That Teaches People
-                            how to See without a Camera</h2>
-                        <p>It’s the end of summer the sweltering heat makes human
-                            sweat in the night and makes the plants and trees wilt
-                            even in the moonlit nights. The eastern wind breeze brings
-                            an eerie feeling, that the monsoon clouds are soon coming,
-                            there is a strange silence in the ears, the sky gets darker
-                            and darker, the flash of lightning illuminates the dark skies,
-                            the sound of thunder fills the heart with fear.</p>
+                        <h5>Tentang Project kami</h5>
+                        <h2>Latar belakang mengapa kami membuat web dengan tema perekonomian petani sawit</h2>
+                        <p>Pada daerah yang memiliki banyak sawit di riau, masih banyak para petani dan pengusaha sawit yang begitu menyepelekan tentang manajemen keuangan ini. Bagi mereka, uang yang baru saja dihasilkannya langsung dihabiskan dan dipakai untuk membeli barang-barang yang untuk sekarang belum terlalu dibutuhkan, mereka tidak berpikir ke depan, hanya memikirkan kesenangan sesaat saja, jika itu terus menerus terjadi, bukan tidak mungkin mereka bisa saja akan bangkrut.
+
+Untuk itu, pengenalan manajemen keuangan itu sendiri sangat dibutuhkan untuk para pengusaha dan petani sawit. Oleh karena itu, perlunya dibuat aplikasi khusus atau web khusus untuk manajemen keuangan keluarga pengusaha dan petani sawit guna mengatur keuangan mereka.
+</p>
                         <a href="#" class="btn_2">read more</a>
                     </div>
                 </div>
@@ -71,34 +67,8 @@
                 <div class="col-md-6 col-lg-5">
                     <div class="review_slider owl-carousel">
                         <div class="review_part_text">
-                            <h2>With efficiency to
-                                unlock more opportunities</h2>
-                            <p>Saw shall light. Us their to place had creepeth day
-                                night great wher appear to. Hath, called, sea called,
-                                gathering wherein open make living Female itself
-                                gathering man. Waters and, two. Bearing. Saw she'd
-                                all let she'd lights abundantly blessed.</p>
-                            <h3>Mitchel Jeferson, <span>CEO of softking</span> </h3>
-                        </div>
-                        <div class="review_part_text">
-                            <h2>With efficiency to
-                                unlock more opportunities</h2>
-                            <p>Saw shall light. Us their to place had creepeth day
-                                night great wher appear to. Hath, called, sea called,
-                                gathering wherein open make living Female itself
-                                gathering man. Waters and, two. Bearing. Saw she'd
-                                all let she'd lights abundantly blessed.</p>
-                            <h3>Mitchel Jeferson, <span>CEO of softking</span> </h3>
-                        </div>
-                        <div class="review_part_text">
-                            <h2>With efficiency to
-                                unlock more opportunities</h2>
-                            <p>Saw shall light. Us their to place had creepeth day
-                                night great wher appear to. Hath, called, sea called,
-                                gathering wherein open make living Female itself
-                                gathering man. Waters and, two. Bearing. Saw she'd
-                                all let she'd lights abundantly blessed.</p>
-                            <h3>Mitchel Jeferson, <span>CEO of softking</span> </h3>
+                            <h2>Tujuan adanya web ini adalah</h2>
+                            <p>Sistem ini dibuat agar petani bisa memanajemen keuangan nya setelah panen, dan memastikan hasil panen tersebut berguna untuk kepentingan bagi kedepannya.</p>
                         </div>
                     </div>
 
