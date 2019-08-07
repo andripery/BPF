@@ -311,8 +311,8 @@
                       <td><?php echo $value->username; ?></td>
                       <td><?php echo $value->password; ?></td>
                       <td>
-                        <a href="<?php echo site_url('user/update/'.$value->id_login);?>" class="btn btn-warning">Edit</a>
-                        <a href="<?php echo site_url('user/delete/'.$value->id_login);?>" onClick="return confiingin menghapus data ini')" class="btn btn-danger">Delete</a>
+                        <a href="<?php echo site_url('welcome/update/'.$value->id_login);?>" class="btn btn-warning">Edit</a>
+                        <a href="<?php echo site_url('welcome/delete/'.$value->id_login);?>" onClick="return confirm(' Apakah anda ingin menghapus data ini?')" class="btn btn-danger">Delete</a>
                       </td>
                     </tr>
                     <?php } ?>

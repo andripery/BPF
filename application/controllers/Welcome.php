@@ -88,9 +88,33 @@ class Welcome extends CI_Controller {
 		$this->load->view('adduser');
 	}
 
-	public function insertuser($value='')
+	public function insertuser()
 	{
-		# code...
+		$id_login = $this->input->post('id_login');
+		$username = $this->input->post('username');
+		$password = $this->input->post('password');
+		$data_input = array('username' => $username,
+						'password' => $password);
+		if($id_login==""){
+			$this->User_model->insert($data_input);
+			redirect(site_url('welcome/admin'));
+		}else{
+			$this->User_model->update($id_login,$data_input);
+			redirect(site_url('welcome/admin'));
+		}
+	}
+
+	public function update($id)
+	{
+		$login = $this->db->where('id_login',$id)->get('login')->row();
+		$data['login'] = $login;
+		$this->load->view('adduser',$data);
+	}
+
+	public function delete($id)
+	{
+		$this->User_model->delete($id);
+		redirect(site_url('welcome/admin'));
 	}
 }
 ?>

@@ -287,7 +287,7 @@
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <a href="<?php echo site_url('admin/createuser');?>">
+              <a href="<?php echo site_url('welcome/createuser');?>">
               <h6 class="m-0 font-weight-bold text-primary">Tambah User</h6>
               </a>
             </div>
