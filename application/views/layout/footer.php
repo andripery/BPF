@@ -8,12 +8,11 @@
                 <div class="col-sm-6 col-md-6 col-lg-3">
                     <div class="single-footer-widget footer_icon">
                         <h4>Contact Info</h4>
-                        <p>4361 Morningview Lane Artland , Pall Street
-                            Latimer, IA 50452 / 23654</p>
+                        <p>Jl. Umban Sari ( Patin ) No. 1, Rumbai, Umban Sari, Kec. Rumbai, Kota Pekanbaru, Riau 28265</p>
                         <ul>
-                            <li><a href="#"><i class="ti-mobile"></i>+02 - 32 365 2654</a></li>
-                            <li><a href="#"><i class="ti-email"></i>ariclaw@law.com</a></li>
-                            <li><a href="#"><i class="ti-world"></i> ariclawyerfirm.com</a></li>
+                            <li><i class="ti-mobile"></i>+02 - 32 365 2654</li>
+                            <li><a href="www.gmail.com"><i class="ti-email"></i>17tib@mahasiswa.pcr.ac.id</a></li>
+                            <li><a href="#"><i class="ti-world"></i> elaeis.com</a></li>
                         </ul>
                     </div>
                 </div>
@@ -22,27 +21,27 @@
                         <h4>Instagram</h4>
                         <div class="footer_img">
                             <div class="single_footer_img">
-                                <img src="<?php echo base_url();?>assets/img/footer_img/footer_img_1.png" alt="">
+                                <img src="<?php echo base_url();?>assets/img/footer_img/1.png" alt="">
                                 <i class="ti-instagram"></i>
                             </div>
                             <div class="single_footer_img">
-                                <img src="<?php echo base_url();?>assets/img/footer_img/footer_img_2.png" alt="">
+                                <img src="<?php echo base_url();?>assets/img/footer_img/2.png" alt="">
                                 <i class="ti-instagram"></i>
                             </div>
                             <div class="single_footer_img">
-                                <img src="<?php echo base_url();?>assets/img/footer_img/footer_img_3.png" alt="">
+                                <img src="<?php echo base_url();?>assets/img/footer_img/3.png" alt="">
                                 <i class="ti-instagram"></i>
                             </div>
                             <div class="single_footer_img">
-                                <img src="<?php echo base_url();?>assets/img/footer_img/footer_img_4.png" alt="">
+                                <img src="<?php echo base_url();?>assets/img/footer_img/4.png" alt="">
                                 <i class="ti-instagram"></i>
                             </div>
                             <div class="single_footer_img">
-                                <img src="<?php echo base_url();?>assets/img/footer_img/footer_img_5.png" alt="">
+                                <img src="<?php echo base_url();?>assets/img/footer_img/5.png" alt="">
                                 <i class="ti-instagram"></i>
                             </div>
                             <div class="single_footer_img">
-                                <img src="<?php echo base_url();?>assets/img/footer_img/footer_img_6.png" alt="">
+                                <img src="<?php echo base_url();?>assets/img/footer_img/6.png" alt="">
                                 <i class="ti-instagram"></i>
                             </div>
                         </div>
@@ -51,7 +50,7 @@
                 <div class="col-sm-6 col-md-6 col-lg-3">
                     <div class="single-footer-widget footer_2">
                         <h4>Newsletter</h4>
-                        <p>Stay updated with our latest trends see heaven so said place fruit.
+                        <p>Pantengin terus web kami, karena banyak manfaat dan membuat hidup hemat.
                         </p>
                         <div class="form-wrap" id="mc_embed_signup">
                             <form target="_blank"
