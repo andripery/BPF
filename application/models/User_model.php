@@ -29,7 +29,7 @@ class User_model extends CI_Model
 
 	public function select()
 	{
-		return $this->db->get('user')->result();
+		return $this->db->get('login')->result();
 	}
 	// public function register($username_user,$email_user,$password_user){
 	// 	return $this->db->query("insert into tib(	nama_user,email_user,password_user)

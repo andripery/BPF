@@ -62,6 +62,8 @@ class Welcome extends CI_Controller {
 
 	public function admin()
 	{
-		$this->load->view('admin');
+		$data_login = $this->User_model->select();
+		$login['login'] = $data_login;
+		$this->load->view('admin',$login);
 	}
 }
