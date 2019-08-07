@@ -57,8 +57,8 @@ Untuk itu, pengenalan manajemen keuangan itu sendiri sangat dibutuhkan untuk par
     <!--::review_part part start::-->
     <section class="review_part section_padding">
         <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md-6 col-lg-5">
+            <div class="row align-items-center justify-content-center">
+                <div class="" col-lg-8">
                     <div class="review_slider owl-carousel">
                         <div class="review_part_text">
                             <h2>Tujuan adanya web ini adalah</h2>
