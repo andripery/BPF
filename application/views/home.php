@@ -136,7 +136,7 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                         <span class="flaticon-love-and-romance"></span>
                         <h4>Edukasi pengelolaan keuangan</h4>
                         <p>Mengelola uang tidak bisa dilakukan dengan sembarangan, ada beberapa tahapan yang perlu diikuti agar tujuan-tujuan di atas dapat tercapai</p>
-                        <a href="<?php echo base_url();?>assets/#" class="btn_1">read more</a>
+                        
                     </div>
                     <div class="single_offer_img d-none d-md-block">
                         <img src="<?php echo base_url();?>assets/img/manfaatsawit.jpg" alt="">
@@ -150,7 +150,7 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                         <span class="flaticon-leaf"></span>
                         <h4>Berbagai macam pemanfaatan sawit</h4>
                         <p>Sebagai salah satu jenis perkebunan yang maju dan banyak dibudidayakan di Indonesia, tentunya kelapa sawit memiliki banyak sekali manfaat. Apa saja manfaat dari kelapa sawit? berikut ini adalah beberapa manfaat kelapa sawit.</p>
-                        <a href="<?php echo base_url();?>assets/#" class="btn_1">read more</a>
+                        
                     </div>
                 </div>
             </div>
@@ -162,38 +162,29 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
     <section class="review_part">
         <div class="container">
             <div class="row align-items-center justify-content-between">
-                <div class="col-md-5">
-                    <div class="review_img">
-                        <img src="<?php echo base_url();?>assets/img/an.png" alt="">
-                    </div>
-                </div>
+                
                 <div class="col-md-6">
                     <div class="review_slider owl-carousel">
                         <div class="review_part_text">
+                            <div class="col-md-5">
+                                <div class="review_img">
+                                    <img src="<?php echo base_url();?>assets/img/an.png" alt="">
+                                </div>
+                            </div>
                             <h5>Testimoni</h5>
                             <h2>Setelah membaca web ini, hal yang didapatkan</h2>
                             <p>Keuangan lebih jelas, dan hemat dalam pemakaian uang, tidak boros dan bisa menabung untuk masa depan.</p>
                             <h3>Raihan Hidayat <span>Petani Sawit</span> </h3>
                         </div>
                         <div class="review_part_text">
-                            <h2>With efficiency to
-                                unlock more opportunities</h2>
-                            <p>Saw shall light. Us their to place had creepeth day
-                                night great wher appear to. Hath, called, sea called,
-                                gathering wherein open make living Female itself
-                                gathering man. Waters and, two. Bearing. Saw she'd
-                                all let she'd lights abundantly blessed.</p>
-                            <h3>Mitchel Jeferson, <span>CEO of softking</span> </h3>
-                        </div>
-                        <div class="review_part_text">
-                            <h2>With efficiency to
-                                unlock more opportunities</h2>
-                            <p>Saw shall light. Us their to place had creepeth day
-                                night great wher appear to. Hath, called, sea called,
-                                gathering wherein open make living Female itself
-                                gathering man. Waters and, two. Bearing. Saw she'd
-                                all let she'd lights abundantly blessed.</p>
-                            <h3>Mitchel Jeferson, <span>CEO of softking</span> </h3>
+                            <div class="col-md-5">
+                                <div class="review_img">
+                                    <img src="<?php echo base_url();?>assets/img/jep.png" alt="">
+                                </div>
+                            </div>
+                            <h2>Setelah membaca web ini, hal yang didapatkan</h2>
+                            <p>Ternyata, kelapa sawit itu bukan hanya untuk minyak saja gunanya, saya bisa jadi tau banyak tentang manfaat kelapa sawit, dan sekaligus bisa berhemat serta tidak boros dengan tips dan edukasi yang diberikan.</p>
+                            <h3>Jefran Aprilliando <span>Pengusaha sawit</span> </h3>
                         </div>
                     </div>
 
