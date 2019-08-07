@@ -25,7 +25,7 @@
                         ?>
                         <article class="blog_item">
                             <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="<?php echo base_url();?>assets/img/blog/single_blog_1.png" alt="">
+                                <img class="card-img rounded-0" src="<?php echo base_url();?>assets/img/blog/<?php echo $value->gambar; ?>" alt="">
                                 <a href="<?php echo base_url();?>assets/#" class="blog_item_date">
                                     <h3><?php echo $value->tanggal; ?></h3>
                                     <p><?php echo $value->bulan; ?></p>
