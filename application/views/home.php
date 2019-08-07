@@ -168,27 +168,34 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                         </div>
                     </div>
                     <div class="col-md-6">
-                    <div class="review_slider owl-carousel">
-                        <div class="review_part_text">
+                        <div class="review_slider owl-carousel">
+                            <div class="review_part_text">
                             
                             <h5>Testimoni</h5>
                             <h2>Setelah membaca web ini, hal yang didapatkan</h2>
                             <p>Keuangan lebih jelas, dan hemat dalam pemakaian uang, tidak boros dan bisa menabung untuk masa depan.</p>
                             <h3>Raihan Hidayat <span>Petani Sawit</span> </h3>
-                        </div>
-                        <div class="review_part_text">
-                            <div class="col-md-5">
-                                <div class="review_img">
-                                    <img src="<?php echo base_url();?>assets/img/jep.png" alt="">
-                                </div>
                             </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="row align-items-center justify-content-between">
+                    <div class="col-md-5">
+                        <div class="review_img">
+                            <img src="<?php echo base_url();?>assets/img/jep.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="review_slider owl-carousel">
+                            <div class="review_part_text">
+                            
+                            <h5>Testimoni</h5>
                             <h2>Setelah membaca web ini, hal yang didapatkan</h2>
                             <p>Ternyata, kelapa sawit itu bukan hanya untuk minyak saja gunanya, saya bisa jadi tau banyak tentang manfaat kelapa sawit, dan sekaligus bisa berhemat serta tidak boros dengan tips dan edukasi yang diberikan.</p>
                             <h3>Jefran Aprilliando <span>Pengusaha sawit</span> </h3>
+                            </div>
                         </div>
                     </div>
-
-                </div>
             </div>
         </div>
     </section>
