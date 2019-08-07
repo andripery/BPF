@@ -179,7 +179,7 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                             </div>
                         </div>
                     </div>
-            </div>
+            </div><br>
             <div class="row align-items-center justify-content-between">
                     <div class="col-md-5">
                         <div class="review_img">
