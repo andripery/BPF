@@ -281,15 +281,12 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-2 text-gray-800">Tabel User</h1>
+          <h1 class="h3 mb-2 text-gray-800">Tabel Kontak</h1>
           
 
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <a href="<?php echo site_url('welcome/createuser');?>">
-              <h6 class="m-0 font-weight-bold text-primary">Tambah User</h6>
-              </a>
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -297,22 +294,26 @@
                   <thead>
                     <tr>
                       <th>No</th>
-                      <th>Name</th>
-                      <th>Password</th>
+                      <th>Subject</th>
+                      <th>Nama</th>
+                      <th>Email</th>
+                      <th>Pesan</th>
                       <th>Aksi</th>
                     </tr>
                   </thead>
                   <tbody>
                     <?php
-                      foreach ($login as $key => $value) {
+                      foreach ($kontak as $key => $value) {
                     ?>
                     <tr>
                       <td><?php echo $key+1 ?></td>
-                      <td><?php echo $value->username; ?></td>
-                      <td><?php echo $value->password; ?></td>
+                      <td><?php echo $value->subject; ?></td>
+                      <td><?php echo $value->nama; ?></td>
+                      <td><?php echo $value->email; ?></td>
+                      <td><?php echo $value->pesan; ?></td>
                       <td>
-                        <a href="<?php echo site_url('user/update/'.$value->id_login);?>" class="btn btn-warning">Edit</a>
-                        <a href="<?php echo site_url('user/delete/'.$value->id_login);?>" onClick="return confiingin menghapus data ini')" class="btn btn-danger">Delete</a>
+                        <a href="<?php echo site_url('welcome/updatekontak/'.$value->id_kontak);?>" class="btn btn-warning">Edit</a>
+                        <a href="<?php echo site_url('welcome/updatekontak/'.$value->id_kontak);?>" onClick="return confiingin menghapus data ini')" class="btn btn-danger">Delete</a>
                       </td>
                     </tr>
                     <?php } ?>

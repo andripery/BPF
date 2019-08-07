@@ -287,39 +287,28 @@
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <a href="<?php echo site_url('welcome/createuser');?>">
+              <a href="<?php echo site_url('admin/createuser');?>">
               <h6 class="m-0 font-weight-bold text-primary">Tambah User</h6>
               </a>
             </div>
             <div class="card-body">
-              <div class="table-responsive">
-                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                  <thead>
-                    <tr>
-                      <th>No</th>
-                      <th>Name</th>
-                      <th>Password</th>
-                      <th>Aksi</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <?php
-                      foreach ($login as $key => $value) {
-                    ?>
-                    <tr>
-                      <td><?php echo $key+1 ?></td>
-                      <td><?php echo $value->username; ?></td>
-                      <td><?php echo $value->password; ?></td>
-                      <td>
-                        <a href="<?php echo site_url('user/update/'.$value->id_login);?>" class="btn btn-warning">Edit</a>
-                        <a href="<?php echo site_url('user/delete/'.$value->id_login);?>" onClick="return confiingin menghapus data ini')" class="btn btn-danger">Delete</a>
-                      </td>
-                    </tr>
-                    <?php } ?>
-                  </tbody>
-                </table>
-              </div>
-            </div>
+              <form method="POST" action="<?php echo site_url('welcome/insertuser'); ?>">
+                                <input type="hidden" name="id_login" value="<?php if(isset($login->id_login)) {echo $login->id_login;} ?>">
+                                <label for="email_address">Nama User</label>
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        <input type="text" id="email_address" class="form-control" placeholder="" name="username" value="<?php if(isset($login->username)) {echo $login->username;} ?>">
+                                    </div>
+                                </div>
+                                <label for="password">Password</label>
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        <input type="password" id="password" class="form-control" placeholder="" name="password" value="<?php if(isset($login->password)) {echo $login->password;} ?>">
+                                    </div>
+                                </div>
+                                <br>
+                                <button type="submit" class="btn btn-primary m-t-15 waves-effect">Submit</button>
+              </form>
           </div>
 
         </div>

@@ -287,7 +287,7 @@
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <a href="<?php echo site_url('admin/create');?>">
+              <a href="<?php echo site_url('admin/createblog');?>">
               <h6 class="m-0 font-weight-bold text-primary">Tambah Blog</h6>
               </a>
             </div>
@@ -317,8 +317,8 @@
                       <td><?php echo $value->bulan; ?></td>
                       <td><img class="card-img rounded-0" src="<?php echo base_url();?>assets/img/blog/<?php echo $value->gambar; ?>" alt=""></td>
                       <td>
-                        <a href="<?php echo site_url('user/update/'.$value->id_blog);?>" class="btn btn-warning">Edit</a>
-                        <a href="<?php echo site_url('user/delete/'.$value->id_blog);?>" onClick="return confiingin menghapus data ini')" class="btn btn-danger">Delete</a>
+                        <a href="<?php echo site_url('welcome/updateblog/'.$value->id_blog);?>" class="btn btn-warning">Edit</a>
+                        <a href="<?php echo site_url('welcome/updateblog/'.$value->id_blog);?>" onClick="return confiingin menghapus data ini')" class="btn btn-danger">Delete</a>
                       </td>
                     </tr>
                     <?php } ?>

@@ -47,6 +47,13 @@ class Welcome extends CI_Controller {
 		$this->load->view('contact');
 	}
 
+	public function kontak()
+	{
+		$data_kontak = $this->User_model->select("kontak");
+		$kontak['kontak'] = $data_kontak;
+		$this->load->view('tabelkontak', $kontak);
+	}
+
 	public function login()
 	{
 		$this->load->view('login');
@@ -74,6 +81,16 @@ class Welcome extends CI_Controller {
 		$data_blog = $this->User_model->select("blog");
 		$blog['blog'] = $data_blog;
 		$this->load->view('tabelblog', $blog);
+	}
+
+	public function createuser()
+	{
+		$this->load->view('adduser');
+	}
+
+	public function insertuser($value='')
+	{
+		# code...
 	}
 }
 ?>
