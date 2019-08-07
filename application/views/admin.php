@@ -56,7 +56,7 @@
 
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="<?php echo site_url('admin/blog');?>">
+        <a class="nav-link collapsed" href="<?php echo site_url('welcome/tabelblog');?>">
           <i class="fas fa-fw fa-folder"></i>
           <span>Blog</span>
         </a>
@@ -71,7 +71,7 @@
       </div>
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="<?php echo site_url('admin/kontak');?>">
+        <a class="nav-link collapsed" href="<?php echo site_url('welcome/kontak');?>">
           <i class="fas fa-fw fa-address-book"></i>
           <span>Kontak</span>
         </a>
@@ -281,13 +281,15 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-2 text-gray-800">Tabel</h1>
+          <h1 class="h3 mb-2 text-gray-800">Tabel User</h1>
           
 
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">Tabel User</h6>
+              <a href="<?php echo site_url('admin/create');?>">
+              <h6 class="m-0 font-weight-bold text-primary">Tambah User</h6>
+              </a>
             </div>
             <div class="card-body">
               <div class="table-responsive">

@@ -13,9 +13,5 @@ class User extends CI_Controller
 		$this->load->model('User_model');
 	}
 
-	public function blog()
-	{
-		$this->load->view('tabelblog');
-	}
-}
+	
 ?>

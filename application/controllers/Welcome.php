@@ -32,7 +32,9 @@ class Welcome extends CI_Controller {
 
 	public function blog()
 	{
-		$this->load->view('blog');
+		$data_blog = $this->User_model->select("blog");
+		$blog['blog'] = $data_blog;
+		$this->load->view('blog', $blog);
 	}
 
 	public function about()
@@ -62,8 +64,16 @@ class Welcome extends CI_Controller {
 
 	public function admin()
 	{
-		$data_login = $this->User_model->select();
+		$data_login = $this->User_model->select("login");
 		$login['login'] = $data_login;
 		$this->load->view('admin',$login);
 	}
+
+	public function tabelblog()
+	{
+		$data_blog = $this->User_model->select("blog");
+		$blog['blog'] = $data_blog;
+		$this->load->view('tabelblog', $blog);
+	}
 }
+?>

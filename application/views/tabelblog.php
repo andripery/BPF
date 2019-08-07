@@ -56,7 +56,7 @@
 
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="<?php echo site_url('admin/blog');?>">
+        <a class="nav-link collapsed" href="<?php echo site_url('welcome/blog');?>">
           <i class="fas fa-fw fa-folder"></i>
           <span>Blog</span>
         </a>
@@ -71,7 +71,7 @@
       </div>
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="<?php echo site_url('admin/kontak');?>">
+        <a class="nav-link collapsed" href="<?php echo site_url('welcome/kontak');?>">
           <i class="fas fa-fw fa-address-book"></i>
           <span>Kontak</span>
         </a>
@@ -281,13 +281,15 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-2 text-gray-800">Tabel</h1>
+          <h1 class="h3 mb-2 text-gray-800">Tabel Blog</h1>
           
 
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">Tabel User</h6>
+              <a href="<?php echo site_url('admin/create');?>">
+              <h6 class="m-0 font-weight-bold text-primary">Tambah Blog</h6>
+              </a>
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -295,22 +297,28 @@
                   <thead>
                     <tr>
                       <th>No</th>
-                      <th>Name</th>
-                      <th>Password</th>
+                      <th>Judul</th>
+                      <th>Deskripsi</th>
+                      <th>Tanggal</th>
+                      <th>Bulan</th>
+                      <th>Gambar</th>
                       <th>Aksi</th>
                     </tr>
                   </thead>
                   <tbody>
                     <?php
-                      foreach ($login as $key => $value) {
+                      foreach ($blog as $key => $value) {
                     ?>
                     <tr>
                       <td><?php echo $key+1 ?></td>
-                      <td><?php echo $value->username; ?></td>
-                      <td><?php echo $value->password; ?></td>
+                      <td><?php echo $value->judul; ?></td>
+                      <td><?php echo $value->deskripsi; ?></td>
+                      <td><?php echo $value->tanggal; ?></td>
+                      <td><?php echo $value->bulan; ?></td>
+                      <td><img class="card-img rounded-0" src="<?php echo base_url();?>assets/img/blog/<?php echo $value->gambar; ?>" alt=""></td>
                       <td>
-                        <a href="<?php echo site_url('user/update/'.$value->id_login);?>" class="btn btn-warning">Edit</a>
-                        <a href="<?php echo site_url('user/delete/'.$value->id_login);?>" onClick="return confiingin menghapus data ini')" class="btn btn-danger">Delete</a>
+                        <a href="<?php echo site_url('user/update/'.$value->id_blog);?>" class="btn btn-warning">Edit</a>
+                        <a href="<?php echo site_url('user/delete/'.$value->id_blog);?>" onClick="return confiingin menghapus data ini')" class="btn btn-danger">Delete</a>
                       </td>
                     </tr>
                     <?php } ?>
