@@ -10,7 +10,7 @@
                         <h4>Contact Info</h4>
                         <p>Jl. Umban Sari ( Patin ) No. 1, Rumbai, Umban Sari, Kec. Rumbai, Kota Pekanbaru, Riau 28265</p>
                         <ul>
-                            <li><i class="ti-mobile"></i>+02 - 32 365 2654</li>
+                            <li><a href="#"><i class="ti-mobile"></i>+02 - 32 365 2654</li>
                             <li><a href="www.gmail.com"><i class="ti-email"></i>17tib@mahasiswa.pcr.ac.id</a></li>
                             <li><a href="#"><i class="ti-world"></i> elaeis.com</a></li>
                         </ul>
