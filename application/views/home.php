@@ -162,15 +162,15 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
     <section class="review_part">
         <div class="container">
             <div class="row align-items-center justify-content-between">
-                
-                <div class="col-md-6">
+                    <div class="col-md-5">
+                        <div class="review_img">
+                            <img src="<?php echo base_url();?>assets/img/an.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
                     <div class="review_slider owl-carousel">
                         <div class="review_part_text">
-                            <div class="col-md-5">
-                                <div class="review_img">
-                                    <img src="<?php echo base_url();?>assets/img/an.png" alt="">
-                                </div>
-                            </div>
+                            
                             <h5>Testimoni</h5>
                             <h2>Setelah membaca web ini, hal yang didapatkan</h2>
                             <p>Keuangan lebih jelas, dan hemat dalam pemakaian uang, tidak boros dan bisa menabung untuk masa depan.</p>
