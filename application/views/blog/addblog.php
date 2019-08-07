@@ -4,51 +4,34 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-2 text-gray-800">Tabel Blog</h1>
+          <h1 class="h3 mb-2 text-gray-800">Tabel User</h1>
           
 
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <a href="<?php echo site_url('blog/createblog');?>">
-              <h6 class="m-0 font-weight-bold text-primary">Tambah Blog</h6>
+              <a href="<?php echo site_url('welcome/createuser');?>">
+              <h6 class="m-0 font-weight-bold text-primary">Tambah User</h6>
               </a>
             </div>
             <div class="card-body">
-              <div class="table-responsive">
-                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                  <thead>
-                    <tr>
-                      <th>No</th>
-                      <th>Judul</th>
-                      <th>Deskripsi</th>
-                      <th>Tanggal</th>
-                      <th>Bulan</th>
-                      <th>Gambar</th>
-                      <th>Aksi</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <?php
-                      foreach ($blog as $key => $value) {
-                    ?>
-                    <tr>
-                      <td><?php echo $key+1 ?></td>
-                      <td><?php echo $value->judul; ?></td>
-                      <td><?php echo $value->deskripsi; ?></td>
-                      <td><?php echo $value->tanggal; ?></td>
-                      <td><?php echo $value->bulan; ?></td>
-                      <td><img class="card-img rounded-0" src="<?php echo base_url();?>assets/img/blog/<?php echo $value->gambar; ?>" alt=""></td>
-                      <td>
-                        <a href="<?php echo site_url('welcome/updateblog/'.$value->id_blog);?>" class="btn btn-warning">Edit</a>
-                        <a href="<?php echo site_url('welcome/updateblog/'.$value->id_blog);?>" onClick="return confiingin menghapus data ini')" class="btn btn-danger">Delete</a>
-                      </td>
-                    </tr>
-                    <?php } ?>
-                  </tbody>
-                </table>
-              </div>
-            </div>
+              <form method="POST" action="<?php echo site_url('welcome/insertuser'); ?>">
+                                <input type="hidden" name="id_login" value="<?php if(isset($login->id_login)) {echo $login->id_login;} ?>">
+                                <label for="email_address">Nama User</label>
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        <input type="text" id="email_address" class="form-control" placeholder="" name="username" value="<?php if(isset($login->username)) {echo $login->username;} ?>">
+                                    </div>
+                                </div>
+                                <label for="password">Password</label>
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        <input type="password" id="password" class="form-control" placeholder="" name="password" value="<?php if(isset($login->password)) {echo $login->password;} ?>">
+                                    </div>
+                                </div>
+                                <br>
+                                <button type="submit" class="btn btn-primary m-t-15 waves-effect">Submit</button>
+              </form>
           </div>
 
         </div>
