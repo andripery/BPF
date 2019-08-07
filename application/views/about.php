@@ -27,7 +27,6 @@
 
 Untuk itu, pengenalan manajemen keuangan itu sendiri sangat dibutuhkan untuk para pengusaha dan petani sawit. Oleh karena itu, perlunya dibuat aplikasi khusus atau web khusus untuk manajemen keuangan keluarga pengusaha dan petani sawit guna mengatur keuangan mereka.
 </p>
-                        <a href="#" class="btn_2">read more</a>
                     </div>
                 </div>
             </div>
@@ -59,11 +58,6 @@ Untuk itu, pengenalan manajemen keuangan itu sendiri sangat dibutuhkan untuk par
     <section class="review_part section_padding">
         <div class="container">
             <div class="row align-items-center justify-content-between">
-                <div class="col-md-6 col-lg-6">
-                    <div class="review_img">
-                        <img src="img/review_bg.png" alt="">
-                    </div>
-                </div>
                 <div class="col-md-6 col-lg-5">
                     <div class="review_slider owl-carousel">
                         <div class="review_part_text">

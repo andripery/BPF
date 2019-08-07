@@ -37,7 +37,6 @@ dan tahun 2009 sebesar 33,86%. Sedangkan kontribusi pertanian terhadap lapangan 
 masih cukup besar yaitu, pada tahun 1990 mencapai angka 58,13% dan pada tahun 2010
 mencapai angka 43,89%. Pada tabel 1.3 berikut dapat dlihat perkembangan luas perkebunan
 kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
-                        <a href="<?php echo base_url();?>" class="btn_2">read more</a>
                     </div>
                 </div>
             </div>
