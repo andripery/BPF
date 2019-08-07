@@ -59,12 +59,12 @@ Untuk itu, pengenalan manajemen keuangan itu sendiri sangat dibutuhkan untuk par
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="" col-lg-8">
-                    <div class="review_slider owl-carousel">
-                        <div class="review_part_text">
+                  
+                        <div class="review_part_text text-center">
                             <h2>Tujuan adanya web ini adalah</h2>
                             <p>Sistem ini dibuat agar petani bisa memanajemen keuangan nya setelah panen, dan memastikan hasil panen tersebut berguna untuk kepentingan bagi kedepannya.</p>
                         </div>
-                    </div>
+                    
 
                 </div>
             </div>
