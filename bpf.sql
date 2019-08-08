@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.5
+-- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Aug 07, 2019 at 09:08 AM
--- Server version: 10.1.38-MariaDB
--- PHP Version: 7.3.4
+-- Host: localhost
+-- Generation Time: Aug 08, 2019 at 04:13 PM
+-- Server version: 8.0.17
+-- PHP Version: 7.3.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -42,8 +42,9 @@ CREATE TABLE `blog` (
 --
 
 INSERT INTO `blog` (`id_blog`, `gambar`, `tanggal`, `bulan`, `judul`, `deskripsi`) VALUES
-(1, 'single_blog_1.png', '15', 'Jan', 'Google inks pact for new 35-storey office', 'That dominion stars lights dominion divide years for fourth have don\'t stars is that he earth it first without heaven in place seed it second morning saying.'),
-(2, 'single_blog_2.png', '16', 'Jan', 'Google inks pact for new 35-storey office', 'That dominion stars lights dominion divide years for fourth have don\'t stars is that\r\n                                    he earth it first without heaven in place seed it second morning saying.');
+(1, '2.jpg', '15', 'Jan', 'Mengelola Penghasilan dengan Prinsip 10 – 20 – 30 – 40', '10 Persen untuk Kebaikan Berapapun penghasilan anda, besar ataupun kecil, upayakanlah untuk selalu berbuat kebaikan. Definisi berbuat kebaikan itu amat luas, tidak terbatas hanya pada memberikan donasi di tempat ibadah, tapi juga hal lain seperti berbakti kepada orang tua dan memberikan bantuan seca'),
+(3, '1.jpg', '20', 'Juli', 'Tips Manajemen Keuangan Sederhana untuk Kehidupan Sejahtera', '1. Belajar Kontrol Diri Jika Anda beruntung, orang tua Anda mengajarkan Anda keterampilan ini ketika Anda masih kecil. Jika tidak, ingatlah bahwa semakin cepat Anda mempelajari kemampuan menunda kepuasan, semakin cepat Anda akan merasa mudah mengatur keuangan Anda. Meskipun Anda dapat dengan mudah m'),
+(4, '3.jpg', '1 ', 'Agustus', '15 Kebiasaan Mengatur Keuangan Pribadi yang Bisa Bikin Masa Depan Cerah', '1. Melacak pendapatan dan pengeluaran  Seringkali kita nggak peduli dengan pengeluaran kita. Kemana saja gaji sebulan kita pergi? Melacak pendapatan dan pengeluaran bisa dilakukan dengan membuat pembukuan sederhana. Kalau nggak mau repot bisa pakai  aplikasi pengatur keuangan di smartphone-mu. 2. Me');
 
 -- --------------------------------------------------------
 
@@ -83,7 +84,9 @@ CREATE TABLE `login` (
 --
 
 INSERT INTO `login` (`id_login`, `username`, `password`) VALUES
-(1, 'admin', 'admin');
+(2, 'jef', '123'),
+(3, 'username', 'username'),
+(4, 'admin', 'admin');
 
 --
 -- Indexes for dumped tables
@@ -115,7 +118,7 @@ ALTER TABLE `login`
 -- AUTO_INCREMENT for table `blog`
 --
 ALTER TABLE `blog`
-  MODIFY `id_blog` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_blog` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `kontak`
@@ -127,7 +130,7 @@ ALTER TABLE `kontak`
 -- AUTO_INCREMENT for table `login`
 --
 ALTER TABLE `login`
-  MODIFY `id_login` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_login` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
