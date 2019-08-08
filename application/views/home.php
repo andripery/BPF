@@ -160,16 +160,19 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
 
     <!--::review_part part start::-->
     <section class="review_part">
-        <h3>Testimoni</h3>
+        
         <div class="container">
             <div class="row align-items-center justify-content-between">
+
                     <div class="col-md-5">
                         <div class="review_img">
                             <img src="<?php echo base_url();?>assets/img/an.png" alt="">
                         </div>
                     </div>
                     <div class="col-md-6">
+                        <h3><u>Testimoni</u></h3>
                         <div class="review_slider owl-carousel">
+
                             <div class="review_part_text">
                             <br>
                             <h4>Setelah membaca web ini, hal yang didapatkan</h4>
@@ -188,7 +191,7 @@ kelapa sawit Provinsi Riau dari tahun 1984-2009 (dalam Chalid, 2011) .</p>
                     <div class="col-md-6">
                         <div class="review_slider owl-carousel">
                             <div class="review_part_text">
-                            <h4>Setelah membaca web ini, hal yang didapatkan</h4>
+
                             <p>Ternyata, kelapa sawit itu bukan hanya untuk minyak saja gunanya, saya bisa jadi tau banyak tentang manfaat kelapa sawit, dan sekaligus bisa berhemat serta tidak boros dengan tips dan edukasi yang diberikan.</p>
                             <h3>"Jefran Aprilliando"<span>-Pengusaha sawit</span> </h3>
                             </div>
