@@ -37,7 +37,12 @@
       </a>
 
       <!-- Divider -->
-      <hr class="sidebar-divider my-0">
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Login
+      </div>
 
       <!-- Nav Item - Dashboard -->
       <li class="nav-item">
