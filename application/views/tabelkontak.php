@@ -35,8 +35,8 @@
                       <td><?php echo $value->email; ?></td>
                       <td><?php echo $value->pesan; ?></td>
                       <td>
-                        <a href="<?php echo site_url('welcome/updatekontak/'.$value->id_kontak);?>" class="btn btn-warning">Edit</a>
-                        <a href="<?php echo site_url('welcome/updatekontak/'.$value->id_kontak);?>" onClick="return confiingin menghapus data ini')" class="btn btn-danger">Delete</a>
+                        <a href="<?php echo site_url('kontak/update/'.$value->id_kontak);?>" class="btn btn-warning">Edit</a>
+                        <a href="<?php echo site_url('kontak/delete/'.$value->id_kontak);?>" onClick="return confirm('Apakah ingin menghapus data ini')" class="btn btn-danger">Delete</a>
                       </td>
                     </tr>
                     <?php } ?>

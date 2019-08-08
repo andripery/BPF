@@ -4,15 +4,12 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-2 text-gray-800">Tabel User</h1>
+          <h1 class="h3 mb-2 text-gray-800">Form Blog</h1>
           
 
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <a href="<?php echo site_url('welcome/createuser');?>">
-              <h6 class="m-0 font-weight-bold text-primary">Tambah User</h6>
-              </a>
             </div>
             <div class="card-body">
               <form method="POST" action="<?php echo site_url('blog/insertblog'); ?>">

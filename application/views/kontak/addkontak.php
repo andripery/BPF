@@ -4,47 +4,38 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-2 text-gray-800">Tabel User</h1>
+          <h1 class="h3 mb-2 text-gray-800">Form Kontak</h1>
           
 
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
-            <div class="card-header py-3">
-              <a href="<?php echo site_url('welcome/createuser');?>">
-              <h6 class="m-0 font-weight-bold text-primary">Tambah User</h6>
-              </a>
+            <div class="card-header py-3">  
             </div>
             <div class="card-body">
-              <form method="POST" action="<?php echo site_url('blog/insertblog'); ?>">
-                                <input type="hidden" name="id_blog" value="<?php if(isset($blog->id_blog)) {echo $blog->id_blog;} ?>">
-                                <label for="email_address">Judul</label>
+              <form method="POST" action="<?php echo site_url('kontak/insertkontak'); ?>">
+                                <input type="hidden" name="id_kontak" value="<?php if(isset($kontak->id_kontak)) {echo $kontak->id_kontak;} ?>">
+                                <label for="email_address">Subject</label>
                                 <div class="form-group">
                                     <div class="form-line">
-                                        <input type="text" id="email_address" class="form-control" placeholder="" name="judul" value="<?php if(isset($blog->judul)) {echo $blog->judul;} ?>">
+                                        <input type="text" id="email_address" class="form-control" placeholder="" name="subject" value="<?php if(isset($kontak->subject)) {echo $kontak->subject;} ?>">
                                     </div>
                                 </div>
-                                <label for="email_address">Deskripsi</label>
+                                <label for="email_address">Nama</label>
                                 <div class="form-group">
                                     <div class="form-line">
-                                        <input type="text" id="email_address" class="form-control" placeholder="" name="deskripsi" value="<?php if(isset($blog->deskripsi)) {echo $blog->deskripsi;} ?>">
+                                        <input type="text" id="email_address" class="form-control" placeholder="" name="nama" value="<?php if(isset($kontak->nama)) {echo $kontak->nama;} ?>">
                                     </div>
                                 </div>
-                                <label for="email_address">Tanggal</label>
+                                <label for="email_address">Email</label>
                                 <div class="form-group">
                                     <div class="form-line">
-                                        <input type="text" id="email_address" class="form-control" placeholder="" name="tanggal" value="<?php if(isset($blog->tanggal)) {echo $blog->tanggal;} ?>">
+                                        <input type="text" id="email_address" class="form-control" placeholder="" name="email" value="<?php if(isset($kontak->email)) {echo $kontak->email;} ?>">
                                     </div>
                                 </div>
-                                <label for="email_address">Bulan</label>
+                                <label for="email_address">Pesan</label>
                                 <div class="form-group">
                                     <div class="form-line">
-                                        <input type="text" id="email_address" class="form-control" placeholder="" name="bulan" value="<?php if(isset($blog->bulan)) {echo $blog->bulan;} ?>">
-                                    </div>
-                                </div>
-                                <label for="email_address">Gambar</label>
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <input type="text" id="email_address" class="form-control" placeholder="" name="gambar" value="<?php if(isset($blog->gambar)) {echo $blog->gambar;} ?>">
+                                        <input type="text" id="email_address" class="form-control" placeholder="" name="pesan" value="<?php if(isset($kontak->pesan)) {echo $kontak->pesan;} ?>">
                                     </div>
                                 </div>
                                 <br>

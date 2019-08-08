@@ -61,8 +61,9 @@
                                 <br>
                                 <button type="submit" class="btn btn-primary m-t-15 waves-effect">Submit</button>
               </form> -->
-          <form class="form-contact contact_form" action="<?php echo site_url('kontak/insertkontak'); ?>" method="POST" id="contactForm">
-            <input type="hidden" name="id_kontak" value="<?php if(isset($blog->id_blog)) {echo $blog->id_blog;} ?>">
+          <!-- <form class="form-contact contact_form" action="<?php echo site_url('kontak/insertkontak'); ?>" method="POST" id="contactForm"> -->
+          <form method="POST" action="<?php echo site_url('kontak/insertkontakk'); ?>">
+            <input type="hidden" name="id_kontak" value="<?php if(isset($kontak->id_kontak)) {echo $kontak->id_kontak;} ?>">
             <div class="row">
               <div class="col-12">
                 <div class="form-group">

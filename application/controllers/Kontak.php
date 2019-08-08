@@ -27,15 +27,15 @@ class Kontak extends CI_Controller {
 
 	public function index()
 	{
-		$data_blog = $this->User_model->select("kontak");
-		$blog['kontak'] = $data_blog;
-		$this->load->view('tabelblog', $blog);
+		$data_kontak = $this->User_model->select("kontak");
+		$kontak['kontak'] = $data_kontak;
+		$this->load->view('tabelkontak', $kontak);
 	}
 
 	public function insertkontak()
 	{
 		$id_kontak = $this->input->post('id_blog');
-		$subject = $this->input->post('judul');
+		$subject = $this->input->post('subject');
 		$nama = $this->input->post('nama');
 		$email = $this->input->post('email');
 		$pesan = $this->input->post('pesan');
@@ -53,10 +53,31 @@ class Kontak extends CI_Controller {
 		}
 	}
 
+	public function insertkontakk()
+	{
+		$id_kontak = $this->input->post('id_blog');
+		$subject = $this->input->post('subject');
+		$nama = $this->input->post('nama');
+		$email = $this->input->post('email');
+		$pesan = $this->input->post('pesan');
+
+		$data_input = array('subject' => $subject,
+						'nama' => $nama,
+						'email' => $email,
+						'pesan' => $pesan);
+		if($id_kontak==""){
+			$this->User_model->insert($data_input,'kontak');
+			redirect(site_url('welcome/contact'));
+		}else{
+			$this->User_model->update($id_kontak,$data_input,'kontak','id_kontak');
+			redirect(site_url('welcome/contact'));
+		}
+	}
+
 	public function update($id)
 	{
-		$blog = $this->db->where('id_kontak',$id)->get('kontak')->row();
-		$data['kontak'] = $blog;
+		$kontak = $this->db->where('id_kontak',$id)->get('kontak')->row();
+		$data['kontak'] = $kontak;
 		$this->load->view('kontak/addkontak',$data);
 	}
 
