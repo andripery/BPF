@@ -67,20 +67,55 @@
           <h2 class="contact-title">Saran dan Masukan</h2>
         </div>
         <div class="col-lg-8">
-          <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm"
-            novalidate="novalidate">
+          <!-- <form method="POST" action="<?php echo site_url('blog/insertblog'); ?>">
+                                <input type="hidden" name="id_blog" value="<?php if(isset($blog->id_blog)) {echo $blog->id_blog;} ?>">
+                                <label for="email_address">Judul</label>
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        <input type="text" id="email_address" class="form-control" placeholder="" name="judul" value="<?php if(isset($blog->judul)) {echo $blog->judul;} ?>">
+                                    </div>
+                                </div>
+                                <label for="email_address">Deskripsi</label>
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        <input type="text" id="email_address" class="form-control" placeholder="" name="deskripsi" value="<?php if(isset($blog->deskripsi)) {echo $blog->deskripsi;} ?>">
+                                    </div>
+                                </div>
+                                <label for="email_address">Tanggal</label>
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        <input type="text" id="email_address" class="form-control" placeholder="" name="tanggal" value="<?php if(isset($blog->tanggal)) {echo $blog->tanggal;} ?>">
+                                    </div>
+                                </div>
+                                <label for="email_address">Bulan</label>
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        <input type="text" id="email_address" class="form-control" placeholder="" name="bulan" value="<?php if(isset($blog->bulan)) {echo $blog->bulan;} ?>">
+                                    </div>
+                                </div>
+                                <label for="email_address">Gambar</label>
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        <input type="text" id="email_address" class="form-control" placeholder="" name="gambar" value="<?php if(isset($blog->gambar)) {echo $blog->gambar;} ?>">
+                                    </div>
+                                </div>
+                                <br>
+                                <button type="submit" class="btn btn-primary m-t-15 waves-effect">Submit</button>
+              </form> -->
+          <form class="form-contact contact_form" action="<?php echo site_url('kontak/insertkontak'); ?>" method="post" id="contactForm">
+            <input type="hidden" name="id_kontak" value="<?php if(isset($blog->id_blog)) {echo $blog->id_blog;} ?>">
             <div class="row">
               <div class="col-12">
                 <div class="form-group">
 
-                  <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
+                  <textarea class="form-control w-100" name="pesan" id="message" cols="30" rows="9"
                     onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'"
                     placeholder='Enter Message'></textarea>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="form-group">
-                  <input class="form-control" name="name" id="name" type="text" onfocus="this.placeholder = ''"
+                  <input class="form-control" name="nama" id="name" type="text" onfocus="this.placeholder = ''"
                     onblur="this.placeholder = 'Enter your name'" placeholder='Enter your name'>
                 </div>
               </div>
@@ -101,6 +136,7 @@
               <button type="submit" class="button-contactForm btn_2">Kirim </button>
             </div>
           </form>
+
         </div>
         <div class="col-lg-4">
           <div class="media contact-info">

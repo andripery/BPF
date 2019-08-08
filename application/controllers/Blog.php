@@ -27,7 +27,9 @@ class Blog extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('tabelblog');
+		$data_blog = $this->User_model->select("blog");
+		$blog['blog'] = $data_blog;
+		$this->load->view('tabelblog', $blog);
 	}
 
 	public function createblog()
@@ -38,16 +40,23 @@ class Blog extends CI_Controller {
 	public function insertblog()
 	{
 		$id_blog = $this->input->post('id_blog');
-		$username = $this->input->post('username');
-		$password = $this->input->post('password');
-		$data_input = array('username' => $username,
-						'password' => $password);
+		$judul = $this->input->post('judul');
+		$deskripsi = $this->input->post('deskripsi');
+		$tanggal = $this->input->post('tanggal');
+		$bulan = $this->input->post('bulan');
+		$gambar = $this->input->post('gambar');
+
+		$data_input = array('judul' => $judul,
+						'deskripsi' => $deskripsi,
+						'tanggal' => $tanggal,
+						'bulan' => $bulan,
+						'gambar' => $gambar);
 		if($id_blog==""){
-			$this->User_model->insert($data_input);
-			redirect(site_url('welcome/admin'));
+			$this->User_model->insert($data_input,'blog');
+			redirect(site_url('blog'));
 		}else{
-			$this->User_model->update($id_blog,$data_input);
-			redirect(site_url('welcome/admin'));
+			$this->User_model->update($id_blog,$data_input,'blog','id_blog');
+			redirect(site_url('blog'));
 		}
 	}
 
@@ -55,13 +64,13 @@ class Blog extends CI_Controller {
 	{
 		$blog = $this->db->where('id_blog',$id)->get('blog')->row();
 		$data['blog'] = $blog;
-		$this->load->view('addblog',$data);
+		$this->load->view('blog/addblog',$data);
 	}
 
 	public function delete($id)
 	{
-		$this->User_model->delete($id);
-		redirect(site_url('welcome/admin'));
+		$this->User_model->delete($id,'blog','id_blog');
+		redirect(site_url('blog'));
 	}
 
 }

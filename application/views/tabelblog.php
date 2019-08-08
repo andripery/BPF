@@ -40,8 +40,8 @@
                       <td><?php echo $value->bulan; ?></td>
                       <td><img class="card-img rounded-0" src="<?php echo base_url();?>assets/img/blog/<?php echo $value->gambar; ?>" alt=""></td>
                       <td>
-                        <a href="<?php echo site_url('welcome/updateblog/'.$value->id_blog);?>" class="btn btn-warning">Edit</a>
-                        <a href="<?php echo site_url('welcome/updateblog/'.$value->id_blog);?>" onClick="return confiingin menghapus data ini')" class="btn btn-danger">Delete</a>
+                        <a href="<?php echo site_url('blog/update/'.$value->id_blog);?>" class="btn btn-warning">Edit</a>
+                        <a href="<?php echo site_url('blog/delete/'.$value->id_blog);?>" onClick="return confirm('Apakah anda ingin menghapus data ini')" class="btn btn-danger">Delete</a>
                       </td>
                     </tr>
                     <?php } ?>

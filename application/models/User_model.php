@@ -10,21 +10,21 @@ class User_model extends CI_Model
 							and password='".$password_user."'")->row();
 	}
 
-	public function insert($data)
+	public function insert($data,$table)
 	{
-		$this->db->insert('login',$data);
+		$this->db->insert($table,$data);
 	}
 
-	public function delete($id)
+	public function delete($id,$table,$idd)
 	{
-		$this->db->where('id_login',$id);
-		$this->db->delete('login');
+		$this->db->where($idd,$id);
+		$this->db->delete($table);
 	}
 
-	public function update($id,$data)
+	public function update($id,$data,$table,$idd)
 	{
 		$this->db->where('id_login',$id);
-		$this->db->update('login',$data);
+		$this->db->update($table,$data);
 	}
 
 	public function select($select)

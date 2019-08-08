@@ -54,26 +54,6 @@
 							Sign in
 						</button>
 					</div>
-
-					<div class="text-center p-t-45 p-b-4">
-						<span class="txt1">
-							Forgot
-						</span>
-
-						<a href="<?php echo base_url();?>assets/login/#" class="txt2 hov1">
-							Username / Password?
-						</a>
-					</div>
-
-					<div class="text-center">
-						<span class="txt1">
-							Create an account?
-						</span>
-
-						<a href="<?php echo base_url();?>assets/login/#" class="txt2 hov1">
-							Sign up
-						</a>
-					</div>
 				</form>
 			</div>
 		</div>

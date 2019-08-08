@@ -96,10 +96,10 @@ class Welcome extends CI_Controller {
 		$data_input = array('username' => $username,
 						'password' => $password);
 		if($id_login==""){
-			$this->User_model->insert($data_input);
+			$this->User_model->insert($data_input,'login');
 			redirect(site_url('welcome/admin'));
 		}else{
-			$this->User_model->update($id_login,$data_input);
+			$this->User_model->update($id_login,$data_input,'login','id_login');
 			redirect(site_url('welcome/admin'));
 		}
 	}
@@ -113,7 +113,7 @@ class Welcome extends CI_Controller {
 
 	public function delete($id)
 	{
-		$this->User_model->delete($id);
+		$this->User_model->delete($id,'login', 'id_login');
 		redirect(site_url('welcome/admin'));
 	}
 }
