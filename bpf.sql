@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Aug 08, 2019 at 04:13 PM
--- Server version: 8.0.17
--- PHP Version: 7.3.8
+-- Host: 127.0.0.1
+-- Generation Time: Aug 08, 2019 at 07:41 PM
+-- Server version: 10.1.38-MariaDB
+-- PHP Version: 7.3.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -21,6 +21,25 @@ SET time_zone = "+00:00";
 --
 -- Database: `bpf`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `about`
+--
+
+CREATE TABLE `about` (
+  `id_about` int(11) NOT NULL,
+  `judul` varchar(300) NOT NULL,
+  `deskripsi` varchar(1000) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `about`
+--
+
+INSERT INTO `about` (`id_about`, `judul`, `deskripsi`) VALUES
+(1, 'Latar belakang mengapa kami membuat web dengan tema perekonomian petani sawit', 'Pada daerah yang memiliki banyak sawit di riau, masih banyak para petani dan pengusaha sawit yang begitu menyepelekan tentang manajemen keuangan ini. Bagi mereka, uang yang baru saja dihasilkannya langsung dihabiskan dan dipakai untuk membeli barang-barang yang untuk sekarang belum terlalu dibutuhkaPada daerah yang memiliki banyak sawit di riau, masih banyak para petani dan pengusaha sawit yang begitu menyepelekan tentang manajemen keuangan ini. Bagi mereka, uang yang baru saja dihasilkannya langsung dihabiskan dan dipakai untuk membeli barang-barang yang untuk sekarang belum terlalu dibutuhkan, mereka tidak berpikir ke depan, hanya memikirkan kesenangan sesaat saja, jika itu terus menerus terjadi, bukan tidak mungkin mereka bisa saja akan bangkrut. Untuk itu, pengenalan manajemen keuangan itu sendiri sangat dibutuhkan untuk para pengusaha dan petani sawit. Oleh karena itu, perlunya dibuat aplikasi khusus atau web khusus untuk manajemen keuangan keluarga pengusaha dan petani sawit guna');
 
 -- --------------------------------------------------------
 
@@ -65,7 +84,10 @@ CREATE TABLE `kontak` (
 --
 
 INSERT INTO `kontak` (`id_kontak`, `subject`, `nama`, `email`, `pesan`) VALUES
-(1, 'Judul', 'Alpery', 'alpery@gmail.com', 'Test');
+(1, 'Judul', 'Alpery', 'alpery@gmail.com', 'Test'),
+(11, 'ccc', 'dsadasda', 'andriperyy@gmail.com', 'sadadads'),
+(13, 'test', 'dsadasda', 'andriperyy@gmail.com', 'sadadads'),
+(14, 'test', 'test', 'test@gmail.com', 'test');
 
 -- --------------------------------------------------------
 
@@ -93,6 +115,12 @@ INSERT INTO `login` (`id_login`, `username`, `password`) VALUES
 --
 
 --
+-- Indexes for table `about`
+--
+ALTER TABLE `about`
+  ADD PRIMARY KEY (`id_about`);
+
+--
 -- Indexes for table `blog`
 --
 ALTER TABLE `blog`
@@ -115,6 +143,12 @@ ALTER TABLE `login`
 --
 
 --
+-- AUTO_INCREMENT for table `about`
+--
+ALTER TABLE `about`
+  MODIFY `id_about` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
 -- AUTO_INCREMENT for table `blog`
 --
 ALTER TABLE `blog`
@@ -124,7 +158,7 @@ ALTER TABLE `blog`
 -- AUTO_INCREMENT for table `kontak`
 --
 ALTER TABLE `kontak`
-  MODIFY `id_kontak` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_kontak` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `login`

@@ -22,11 +22,12 @@
                 <div class="col-lg-8">
                     <div class="about_us_text text-center">
                         <h5>Tentang Project kami</h5>
-                        <h2>Latar belakang mengapa kami membuat web dengan tema perekonomian petani sawit</h2>
-                        <p>Pada daerah yang memiliki banyak sawit di riau, masih banyak para petani dan pengusaha sawit yang begitu menyepelekan tentang manajemen keuangan ini. Bagi mereka, uang yang baru saja dihasilkannya langsung dihabiskan dan dipakai untuk membeli barang-barang yang untuk sekarang belum terlalu dibutuhkan, mereka tidak berpikir ke depan, hanya memikirkan kesenangan sesaat saja, jika itu terus menerus terjadi, bukan tidak mungkin mereka bisa saja akan bangkrut.
-
-Untuk itu, pengenalan manajemen keuangan itu sendiri sangat dibutuhkan untuk para pengusaha dan petani sawit. Oleh karena itu, perlunya dibuat aplikasi khusus atau web khusus untuk manajemen keuangan keluarga pengusaha dan petani sawit guna mengatur keuangan mereka.
-</p>
+                        <?php
+                            foreach ($about as $key => $value) {
+                        ?>
+                        <h2><?php echo $value->judul; ?></h2>
+                        <p><?php echo $value->deskripsi; ?></p>
+                        <?php } ?>
                     </div>
                 </div>
             </div>

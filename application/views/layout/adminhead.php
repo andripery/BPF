@@ -78,6 +78,21 @@
       </li>
 
       <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Info
+      </div>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="<?php echo site_url('welcome/tabelabout');?>">
+          <i class="fas fa-fw fa-info-circle"></i>
+          <span>About</span>
+        </a>
+      </li>
+
+      <!-- Divider -->
       <hr class="sidebar-divider d-none d-md-block">
 
       <!-- Sidebar Toggler (Sidebar) -->

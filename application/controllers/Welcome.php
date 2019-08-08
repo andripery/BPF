@@ -39,7 +39,9 @@ class Welcome extends CI_Controller {
 
 	public function about()
 	{
-		$this->load->view('about');
+		$data_about = $this->User_model->select("about");
+		$about['about'] = $data_about;
+		$this->load->view('about', $about);
 	}
 
 	public function contact()
@@ -81,6 +83,13 @@ class Welcome extends CI_Controller {
 		$data_blog = $this->User_model->select("blog");
 		$blog['blog'] = $data_blog;
 		$this->load->view('tabelblog', $blog);
+	}
+
+	public function tabelabout()
+	{
+		$data_about = $this->User_model->select("about");
+		$about['about'] = $data_about;
+		$this->load->view('tabelabout', $about);
 	}
 
 	public function createuser()
