@@ -23,7 +23,7 @@ class User_model extends CI_Model
 
 	public function update($id,$data,$table,$idd)
 	{
-		$this->db->where('id_login',$id);
+		$this->db->where($idd,$id);
 		$this->db->update($table,$data);
 	}
 
